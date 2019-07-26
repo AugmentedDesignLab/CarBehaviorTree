@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\July_15_car_test.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F6D933B5-A6DA-4DCE-8CC9-A444B996647B}</UniqueIdentifier>
+      <UniqueIdentifier>{EB091F58-939C-48A8-A0CE-D4282198E7B7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\July_15_car_test.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{25677EF1-4CAF-423F-AE22-DE1FCE8563C8}</UniqueIdentifier>
+      <UniqueIdentifier>{D3F5BFEC-D281-46F8-9D19-4EAE3EBEFA90}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\July_15_car_test">
-      <UniqueIdentifier>{7F6FD899-6097-446D-8FF8-A5905947A98C}</UniqueIdentifier>
+      <UniqueIdentifier>{4A5FD4B1-25F7-403A-AAFE-1BD298F6B888}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\July_15_car_test\DummyCar.cpp">
       <Filter>Source\July_15_car_test</Filter>
