@@ -1,0 +1,1227 @@
+﻿Log file open, 07/23/19 16:26:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: July_15_car_test
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.532257
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-6063286
+LogInit: Engine Version: 4.22.1-6063286+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070
+LogInit: Compiled (64-bit): Apr 24 2019 04:36:48
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.07.23-23.26.18:409][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.23-23.26.18:409][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.07.23-23.26.18:409][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Engine.ini]
+[2019.07.23-23.26.18:409][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.23-23.26.18:409][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.07.23-23.26.18:409][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Engine.ini]
+[2019.07.23-23.26.18:410][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Engine.ini]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Engine.ini]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.23-23.26.18:410][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Engine.ini]
+[2019.07.23-23.26.18:410][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Engine.ini]
+[2019.07.23-23.26.18:412][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.23-23.26.18:412][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.23-23.26.18:413][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.23-23.26.18:413][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.23-23.26.18:427][  0]LogHAL: Display: Platform has ~ 32 GB [34169233408 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.07.23-23.26.18:427][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.23-23.26.18:427][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.23-23.26.18:427][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.23-23.26.18:427][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.23-23.26.18:427][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Scalability.ini]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.07.23-23.26.18:428][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Config/Windows/Engine.ini]
+[2019.07.23-23.26.18:428][  0]LogInit: Computer: PARTICLE
+[2019.07.23-23.26.18:428][  0]LogInit: User: abjawad
+[2019.07.23-23.26.18:428][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.07.23-23.26.18:428][  0]LogInit: High frequency timer resolution =3.515629 MHz
+[2019.07.23-23.26.18:429][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2019.07.23-23.26.18:429][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.23-23.26.18:429][  0]LogMemory: Process Physical Memory: 99.02 MB used, 99.02 MB peak
+[2019.07.23-23.26.18:429][  0]LogMemory: Process Virtual Memory: 90.57 MB used, 90.57 MB peak
+[2019.07.23-23.26.18:429][  0]LogMemory: Physical Memory: 10469.34 MB used,  22116.98 MB free, 32586.32 MB total
+[2019.07.23-23.26.18:429][  0]LogMemory: Virtual Memory: 4689.04 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.07.23-23.26.18:448][  0]LogInit: Using OS detected language (en-US).
+[2019.07.23-23.26.18:448][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.23-23.26.18:449][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.23-23.26.18:578][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.23-23.26.18:600][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.23-23.26.18:600][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.23-23.26.19:730][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.23-23.26.19:730][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.23-23.26.19:789][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2019.07.23-23.26.19:789][  0]LogD3D11RHI:       8031/0/16293 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.07.23-23.26.19:816][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.07.23-23.26.19:816][  0]LogD3D11RHI:       128/0/16293 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.07.23-23.26.19:817][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.23-23.26.19:817][  0]LogD3D11RHI:       0/0/16293 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.23-23.26.19:817][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.23-23.26.19:821][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.23-23.26.19:821][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.23-23.26.19:821][  0]LogWindows: EnumDisplayDevices:
+[2019.07.23-23.26.19:822][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2019.07.23-23.26.19:822][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.07.23-23.26.19:822][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.07.23-23.26.19:822][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.07.23-23.26.19:822][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.07.23-23.26.19:822][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.07.23-23.26.19:822][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.07.23-23.26.19:822][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.07.23-23.26.19:822][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2019.07.23-23.26.19:822][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.07.23-23.26.19:822][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.07.23-23.26.19:822][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2019.07.23-23.26.19:854][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.23-23.26.19:856][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.23-23.26.19:857][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.23-23.26.19:857][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.23-23.26.19:864][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.23-23.26.20:102][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.07.23-23.26.20:112][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.07.23-23.26.20:121][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.07.23-23.26.20:131][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.07.23-23.26.20:143][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.07.23-23.26.20:153][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.07.23-23.26.20:162][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.07.23-23.26.20:172][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.07.23-23.26.20:177][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.07.23-23.26.20:237][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.07.23-23.26.20:238][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.07.23-23.26.20:283][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.07.23-23.26.20:283][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.07.23-23.26.20:299][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.07.23-23.26.20:299][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.07.23-23.26.20:307][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.07.23-23.26.20:315][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.07.23-23.26.20:323][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.07.23-23.26.20:336][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.07.23-23.26.20:368][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.07.23-23.26.20:368][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.07.23-23.26.20:369][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.23-23.26.20:375][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.07.23-23.26.20:410][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Intermediate/Shaders/WorkingDirectory/988/).
+[2019.07.23-23.26.20:410][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abjawad/AppData/Local/Temp/UnrealShaderWorkingDir/912E464E43BA769FC2B72BA3290667F5/'.
+[2019.07.23-23.26.20:412][  0]LogXGEController: Cleaning working directory: C:/Users/abjawad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.23-23.26.20:412][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.23-23.26.20:412][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.23-23.26.20:412][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.23-23.26.21:512][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.23-23.26.21:550][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/abjawad/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.23-23.26.21:550][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/abjawad/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.07.23-23.26.21:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.23-23.26.21:550][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.23-23.26.21:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.23-23.26.21:550][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.23-23.26.21:562][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.23-23.26.21:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.23-23.26.21:562][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.07.23-23.26.21:574][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abjawad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.23-23.26.21:574][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.23-23.26.21:574][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.23-23.26.21:588][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.23-23.26.21:589][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.23-23.26.21:589][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.23-23.26.21:667][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2019.07.23-23.26.21:885][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.23-23.26.22:018][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.23-23.26.22:018][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.07.23-23.26.22:018][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.23-23.26.22:018][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.23-23.26.22:018][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.23-23.26.22:035][  0]LogNetVersion: July_15_car_test 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2018011856)
+[2019.07.23-23.26.22:555][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.030752 seconds
+[2019.07.23-23.26.22:559][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.07.23-23.26.22:559][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.07.23-23.26.22:559][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.23-23.26.24:143][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.23-23.26.24:155][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.23-23.26.24:280][  0]SourceControl: Source control is disabled
+[2019.07.23-23.26.24:280][  0]SourceControl: Source control is disabled
+[2019.07.23-23.26.24:281][  0]SourceControl: Source control is disabled
+[2019.07.23-23.26.24:281][  0]SourceControl: Source control is disabled
+[2019.07.23-23.26.24:336][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.23-23.26.24:387][  0]LogOcInput: OculusInput pre-init called
+[2019.07.23-23.26.24:932][  0]LogEngine: Initializing Engine...
+[2019.07.23-23.26.24:933][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.23-23.26.24:933][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.07.23-23.26.25:162][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.23-23.26.25:176][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.23-23.26.25:184][  0]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.26.25:261][  0]LogInit: FAudioDevice initialized.
+[2019.07.23-23.26.25:262][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.23-23.26.25:300][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/abjawad/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.23-23.26.25:303][  0]LogInit: Texture streaming: Enabled
+[2019.07.23-23.26.25:316][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.23-23.26.25:316][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={E015274B-4259-DC2A-CCDA-A6BF69E6C2A8}
+[2019.07.23-23.26.25:334][  0]LogInit: Transaction tracking system initialized
+[2019.07.23-23.26.25:354][  0]BlueprintLog: New page: Editor Load
+[2019.07.23-23.26.25:413][  0]LocalizationService: Localization service is disabled
+[2019.07.23-23.26.25:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/' took 0.01s
+[2019.07.23-23.26.25:764][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.23-23.26.25:764][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.23-23.26.25:959][  0]SourceControl: Source control is disabled
+[2019.07.23-23.26.25:959][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.23-23.26.25:962][  0]LightingResults: New page: Lighting Build
+[2019.07.23-23.26.25:964][  0]MapCheck: New page: Map Check
+[2019.07.23-23.26.25:964][  0]LightingResults: New page: Lighting Build
+[2019.07.23-23.26.25:986][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.07.23-23.26.26:066][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.07.23-23.26.26:072][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.23-23.26.26:099][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.07.23-23.26.26:099][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.23-23.26.26:099][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.114ms to complete.
+[2019.07.23-23.26.26:099][  0]LogFileHelpers: Loading map 'Template_Default' took 0.139
+[2019.07.23-23.26.26:199][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.26.26:203][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.26.26:207][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.26.26:212][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.26.26:219][  0]LogCollectionManager: Loaded 0 collections in 0.001453 seconds
+[2019.07.23-23.26.26:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/Collections/' took 0.01s
+[2019.07.23-23.26.26:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/Developers/abjawad/Collections/' took 0.00s
+[2019.07.23-23.26.26:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/Collections/' took 0.00s
+[2019.07.23-23.26.26:234][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.07.23-23.26.26:240][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2734 classes and 661 folders.
+[2019.07.23-23.26.26:245][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.07.23-23.26.26:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:261][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:266][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:268][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:271][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:273][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:275][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:278][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:288][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:310][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:312][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:315][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:317][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:320][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:322][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:324][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:327][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:331][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.23-23.26.26:406][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.23-23.26.26:412][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.07.23-23.26.26:422][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.23-23.26.26:423][  0]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.23-23.26.26:432][  0]LogSlate: Took 0.003598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.23-23.26.26:492][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2019.07.23-23.26.26:585][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.23-23.26.26:585][  0]LogLoad: (Engine Initialization) Total time: 10.19 seconds
+[2019.07.23-23.26.26:585][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.23-23.26.26:671][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.23-23.26.26:685][  0]LogAssetRegistry: Asset discovery search completed in 5.0410 seconds
+[2019.07.23-23.26.26:687][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.23-23.26.26:687][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2019.07.23-23.26.26:688][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.23-23.26.27:610][105]LogSlate: Took 0.002616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.23-23.26.30:320][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.26.30:395][437]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_WayPoint.BP_WayPoint
+[2019.07.23-23.26.30:606][437]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.07.23-23.26.31:219][437]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DummyCar_test.DummyCar_test
+[2019.07.23-23.26.31:419][437]LogActor: Warning: BP_WayPoint_C /Engine/Transient.World_0:PersistentLevel.BP_WayPoint_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.07.23-23.26.44:550][774]LogSlate: Window 'BP_WayPoint' being destroyed
+[2019.07.23-23.26.47:936][176]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.26.47:940][176]LogAssetEditorManager: Opening Asset editor for World /Game/sceneMap/NewMap.NewMap
+[2019.07.23-23.26.47:969][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2019.07.23-23.26.47:970][176]Cmd: MAP LOAD FILE="../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/sceneMap/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.23-23.26.47:970][176]LightingResults: New page: Lighting Build
+[2019.07.23-23.26.47:970][176]LoadErrors: New page: Loading map: NewMap.umap
+[2019.07.23-23.26.47:971][176]MapCheck: New page: Map Check
+[2019.07.23-23.26.47:971][176]LightingResults: New page: Lighting Build
+[2019.07.23-23.26.48:001][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.07.23-23.26.48:002][176]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.23-23.26.48:032][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.07.23-23.26.48:052][176]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.23-23.26.48:052][176]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.079ms to complete.
+[2019.07.23-23.26.48:052][176]LogFileHelpers: Loading map 'NewMap' took 0.082
+[2019.07.23-23.26.50:985][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.26.51:596][596]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.23-23.26.52:712][730]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.07.23-23.26.57:666][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.07.23-23.26.57:780][318]LogSavePackage: Moving '../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/NewMap7F59361B4E2AAAEAD72D6B8669752461.tmp' to '../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/sceneMap/NewMap.umap'
+[2019.07.23-23.26.57:804][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sceneMap/NewMap_BuiltData" FILE="../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/sceneMap/NewMap_BuiltData.uasset" SILENT=true
+[2019.07.23-23.26.57:828][318]LogSavePackage: Moving '../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/NewMap_BuiltData1873BC7B4BC4414055224AB2DB3C02A9.tmp' to '../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/sceneMap/NewMap_BuiltData.uasset'
+[2019.07.23-23.26.57:997][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.07.23-23.26.58:103][333]LogSavePackage: Moving '../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/NewMap1659C4B64B8FBCB39207E98F8E8702E3.tmp' to '../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/sceneMap/NewMap.umap'
+[2019.07.23-23.26.58:126][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sceneMap/NewMap_BuiltData" FILE="../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/sceneMap/NewMap_BuiltData.uasset" SILENT=true
+[2019.07.23-23.26.58:146][333]LogSavePackage: Moving '../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Saved/NewMap_BuiltData0A701B2E4BE332668FEB578F382D6FE0.tmp' to '../../../../../../Users/abjawad/Documents/Unreal Projects/July_15_car_test/Content/sceneMap/NewMap_BuiltData.uasset'
+[2019.07.23-23.26.59:672][514]Candidate modules for hot reload:
+[2019.07.23-23.26.59:672][514]  July_15_car_test
+[2019.07.23-23.26.59:672][514]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=July_15_car_test,5575 Win64 Development -TargetType=Editor -Project="C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/July_15_car_test.uproject" "C:/Users/abjawad/Documents/Unreal Projects/July_15_car_test/July_15_car_test.uproject"  -IgnoreJunk]
+[2019.07.23-23.26.59:675][514]Warning: Starting HotReload took  0.0s.
+[2019.07.23-23.27.06:824][368]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 9:27:06 AM
+[2019.07.23-23.27.06:824][368]CompilerResultsLog: Creating makefile for July_15_car_testEditor (ini files are newer than makefile)
+[2019.07.23-23.27.06:825][368]CompilerResultsLog: Parsing headers for July_15_car_testEditor
+[2019.07.23-23.27.06:825][368]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\July_15_car_test.uproject" "C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\July_15_car_testEditor\Development\July_15_car_testEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-23.27.06:825][368]CompilerResultsLog: Reflection code generated for July_15_car_testEditor in 4.744013 seconds
+[2019.07.23-23.27.06:825][368]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.23-23.27.06:825][368]CompilerResultsLog: Building 3 actions with 16 processes...
+[2019.07.23-23.27.06:825][368]CompilerResultsLog:   [1/3] UE4Editor-July_15_car_test-5575.lib
+[2019.07.23-23.27.06:825][368]CompilerResultsLog:      Creating library C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\UE4Editor-July_15_car_test-5575.lib and object C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\UE4Editor-July_15_car_test-5575.exp
+[2019.07.23-23.27.06:825][368]CompilerResultsLog:   [2/3] UE4Editor-July_15_car_test-5575.dll
+[2019.07.23-23.27.06:825][368]CompilerResultsLog:      Creating library C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\UE4Editor-July_15_car_test-5575.suppressed.lib and object C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\UE4Editor-July_15_car_test-5575.suppressed.exp
+[2019.07.23-23.27.06:825][368]CompilerResultsLog:   [3/3] July_15_car_testEditor.target
+[2019.07.23-23.27.06:825][368]CompilerResultsLog: Total time in Parallel executor: 0.95 seconds
+[2019.07.23-23.27.06:825][368]CompilerResultsLog: Total execution time: 7.10 seconds
+[2019.07.23-23.27.06:825][368]LogMainFrame: MainFrame: Module compiling took 7.154 seconds
+[2019.07.23-23.27.06:850][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2019.07.23-23.27.06:850][368]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.27.06:864][368]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.27.06:865][368]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.27.06:866][368]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.27.07:080][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.07.23-23.27.07:080][368]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.27.07:090][368]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.27.07:091][368]Display: HotReload took  7.4s.
+[2019.07.23-23.27.24:749][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.27.24:840][475]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.27.24:856][475]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.27.24:856][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.27.24:856][475]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:27:24 AM)
+[2019.07.23-23.27.24:868][475]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.27.24:870][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002100s)
+[2019.07.23-23.27.24:873][475]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.27.24:873][475]LogPlayLevel: PIE: World Init took: (0.003094s)
+[2019.07.23-23.27.24:873][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.005433s)
+[2019.07.23-23.27.24:915][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.07.23-23.27.24:919][475]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.27.24:925][475]LogInit: FAudioDevice initialized.
+[2019.07.23-23.27.24:967][475]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.27.24:969][475]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.27.24
+[2019.07.23-23.27.24:970][475]LogWorld: Bringing up level for play took: 0.001046
+[2019.07.23-23.27.24:981][475]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.27.24:981][475]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.27.25:002][475]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.07.23-23.27.25:004][475]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.07.23-23.27.25:004][475]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.07.23-23.27.25:004][475]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.27.25:005][475]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.27.25:005][475]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 1.136
+[2019.07.23-23.27.25:015][475]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.27.31:906][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.27.31:991][257]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.27.31:991][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.27.32:017][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.27.32:017][257]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.27.32:055][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.27.32:081][257]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.07.23-23.27.32:091][258]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.07.23-23.27.42:924][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.23-23.29.44:018][906]LogHotReload: New module detected: UE4Editor-July_15_car_test-0048.dll
+[2019.07.23-23.29.44:691][909]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.29.44:746][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.07.23-23.29.44:746][909]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.29.44:764][909]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.29.44:764][909]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.29.44:767][909]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.29.44:814][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.07.23-23.29.44:814][909]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.29.44:825][909]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.29.44:828][909]Display: HotReload took  0.1s.
+[2019.07.23-23.29.50:206][113]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.29.50:218][113]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.29.50:218][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.29.50:219][113]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:29:50 AM)
+[2019.07.23-23.29.50:219][113]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.29.50:220][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001785s)
+[2019.07.23-23.29.50:221][113]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.29.50:221][113]LogPlayLevel: PIE: World Init took: (0.000429s)
+[2019.07.23-23.29.50:221][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002302s)
+[2019.07.23-23.29.50:273][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.07.23-23.29.50:277][113]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.29.50:282][113]LogInit: FAudioDevice initialized.
+[2019.07.23-23.29.50:307][113]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.29.50:308][113]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.29.50
+[2019.07.23-23.29.50:309][113]LogWorld: Bringing up level for play took: 0.000932
+[2019.07.23-23.29.50:320][113]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.29.50:320][113]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.29.50:320][113]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.29.50:320][113]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.29.50:320][113]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 0.452
+[2019.07.23-23.29.50:321][113]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.31.20:165][216]LogHotReload: New module detected: UE4Editor-July_15_car_test-0049.dll
+[2019.07.23-23.31.39:666][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.31.39:666][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.31.39:696][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.31.39:696][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.31.39:727][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.31.39:731][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.07.23-23.31.39:746][798]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.31.39:779][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.07.23-23.31.39:779][798]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.31.39:796][798]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.31.39:796][798]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.31.39:799][798]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.31.39:849][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.07.23-23.31.39:849][798]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.31.39:861][798]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.31.39:863][798]Display: HotReload took  0.1s.
+[2019.07.23-23.31.39:867][798]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.07.23-23.31.43:904][259]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.31.43:917][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.31.43:917][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.31.43:917][259]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:31:43 AM)
+[2019.07.23-23.31.43:917][259]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.31.43:919][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001949s)
+[2019.07.23-23.31.43:919][259]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.31.43:919][259]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2019.07.23-23.31.43:919][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002448s)
+[2019.07.23-23.31.43:971][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.07.23-23.31.43:975][259]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.31.43:980][259]LogInit: FAudioDevice initialized.
+[2019.07.23-23.31.44:006][259]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.31.44:007][259]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.31.44
+[2019.07.23-23.31.44:007][259]LogWorld: Bringing up level for play took: 0.000974
+[2019.07.23-23.31.44:019][259]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.31.44:019][259]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.31.44:019][259]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.31.44:019][259]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.31.44:020][259]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 0.151
+[2019.07.23-23.31.44:021][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.33.44:884][559]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.33.44:884][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.33.44:910][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.33.44:910][559]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.33.44:940][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.33.44:944][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.07.23-23.33.44:988][564]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.07.23-23.33.54:998][763]LogHotReload: New module detected: UE4Editor-July_15_car_test-0050.dll
+[2019.07.23-23.33.55:880][865]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.33.55:883][865]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.23-23.33.55:914][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.07.23-23.33.55:914][865]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.33.55:932][865]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.33.55:932][865]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.33.55:936][865]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.33.55:987][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.07.23-23.33.55:987][865]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.33.55:998][865]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.33.56:000][865]Display: HotReload took  0.1s.
+[2019.07.23-23.34.12:635][437]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.34.12:648][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.34.12:648][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.34.12:648][437]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:34:12 AM)
+[2019.07.23-23.34.12:648][437]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.34.12:650][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001914s)
+[2019.07.23-23.34.12:650][437]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.34.12:650][437]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2019.07.23-23.34.12:650][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002505s)
+[2019.07.23-23.34.12:702][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2019.07.23-23.34.12:706][437]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.34.12:711][437]LogInit: FAudioDevice initialized.
+[2019.07.23-23.34.12:740][437]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.34.12:745][437]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.34.12
+[2019.07.23-23.34.12:746][437]LogWorld: Bringing up level for play took: 0.004162
+[2019.07.23-23.34.12:760][437]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.34.12:760][437]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.34.12:761][437]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.34.12:761][437]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.34.12:761][437]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 0.893
+[2019.07.23-23.34.12:762][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.34.19:369][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.34.19:454][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.34.19:454][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.34.19:484][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.34.19:485][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.34.19:518][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.34.19:533][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.07.23-23.34.19:560][234]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.07.23-23.34.22:963][642]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.34.22:975][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.34.22:975][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.34.22:975][642]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:34:22 AM)
+[2019.07.23-23.34.22:975][642]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.34.22:977][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001741s)
+[2019.07.23-23.34.22:977][642]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.34.22:977][642]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2019.07.23-23.34.22:978][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002332s)
+[2019.07.23-23.34.23:007][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.07.23-23.34.23:010][642]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.34.23:016][642]LogInit: FAudioDevice initialized.
+[2019.07.23-23.34.23:044][642]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.34.23:050][642]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.34.23
+[2019.07.23-23.34.23:051][642]LogWorld: Bringing up level for play took: 0.003885
+[2019.07.23-23.34.23:065][642]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.34.23:066][642]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.34.23:066][642]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.34.23:067][642]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.34.23:067][642]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap -0.801
+[2019.07.23-23.34.23:071][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.40.53:379][646]LogHotReload: New module detected: UE4Editor-July_15_car_test-0051.dll
+[2019.07.23-23.41.26:265][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.41.26:266][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.41.26:298][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.41.26:299][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.41.26:332][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.41.26:335][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.07.23-23.41.26:351][  8]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.41.26:383][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.07.23-23.41.26:384][  8]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.41.26:400][  8]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.41.26:400][  8]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.41.26:403][  8]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.41.26:455][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.07.23-23.41.26:455][  8]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.41.26:467][  8]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.41.26:469][  8]Display: HotReload took  0.1s.
+[2019.07.23-23.41.26:473][  8]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.07.23-23.41.28:206][191]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.41.28:218][191]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.41.28:218][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.41.28:218][191]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:41:28 AM)
+[2019.07.23-23.41.28:218][191]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.41.28:220][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001871s)
+[2019.07.23-23.41.28:221][191]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.41.28:221][191]LogPlayLevel: PIE: World Init took: (0.000419s)
+[2019.07.23-23.41.28:221][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002381s)
+[2019.07.23-23.41.28:277][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.07.23-23.41.28:280][191]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.41.28:285][191]LogInit: FAudioDevice initialized.
+[2019.07.23-23.41.28:313][191]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.41.28:314][191]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.41.28
+[2019.07.23-23.41.28:315][191]LogWorld: Bringing up level for play took: 0.001293
+[2019.07.23-23.41.28:326][191]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.41.28:326][191]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.41.28:326][191]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.41.28:326][191]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.41.28:326][191]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 0.45
+[2019.07.23-23.41.28:327][191]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.41.42:780][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.41.42:865][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.41.42:865][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.41.42:896][909]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.41.42:896][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.41.42:929][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.41.42:933][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.07.23-23.41.42:968][913]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.07.23-23.42.22:307][655]LogHotReload: New module detected: UE4Editor-July_15_car_test-0052.dll
+[2019.07.23-23.42.22:987][658]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.42.23:023][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.07.23-23.42.23:024][658]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.42.23:040][658]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.42.23:040][658]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.42.23:043][658]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.42.23:093][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.07.23-23.42.23:093][658]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.42.23:104][658]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.42.23:107][658]Display: HotReload took  0.1s.
+[2019.07.23-23.42.34:750][992]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.42.34:761][992]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.42.34:761][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.42.34:761][992]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:42:34 AM)
+[2019.07.23-23.42.34:761][992]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.42.34:763][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001898s)
+[2019.07.23-23.42.34:764][992]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.42.34:764][992]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2019.07.23-23.42.34:764][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002450s)
+[2019.07.23-23.42.34:816][992]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.07.23-23.42.34:819][992]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.42.34:825][992]LogInit: FAudioDevice initialized.
+[2019.07.23-23.42.34:857][992]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.42.34:863][992]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.42.34
+[2019.07.23-23.42.34:864][992]LogWorld: Bringing up level for play took: 0.004706
+[2019.07.23-23.42.34:878][992]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.42.34:879][992]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.42.34:879][992]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.42.34:880][992]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.42.34:880][992]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 1.004
+[2019.07.23-23.42.34:884][992]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.42.39:948][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.42.40:066][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.42.40:066][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.42.40:093][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.42.40:093][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.42.40:133][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.42.40:147][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.07.23-23.42.40:165][599]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.07.23-23.43.53:668][986]LogHotReload: New module detected: UE4Editor-July_15_car_test-0053.dll
+[2019.07.23-23.43.54:688][990]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.43.54:721][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.07.23-23.43.54:721][990]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.43.54:737][990]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.43.54:738][990]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.43.54:740][990]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.43.54:790][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.07.23-23.43.54:790][990]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.43.54:801][990]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.43.54:804][990]Display: HotReload took  0.1s.
+[2019.07.23-23.44.03:547][373]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.44.03:561][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.44.03:562][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.44.03:562][373]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:44:03 AM)
+[2019.07.23-23.44.03:562][373]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.44.03:564][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001804s)
+[2019.07.23-23.44.03:564][373]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.44.03:564][373]LogPlayLevel: PIE: World Init took: (0.000386s)
+[2019.07.23-23.44.03:564][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002275s)
+[2019.07.23-23.44.03:616][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2019.07.23-23.44.03:619][373]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.44.03:624][373]LogInit: FAudioDevice initialized.
+[2019.07.23-23.44.03:657][373]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.44.03:662][373]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.44.03
+[2019.07.23-23.44.03:664][373]LogWorld: Bringing up level for play took: 0.003956
+[2019.07.23-23.44.03:678][373]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.44.03:678][373]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.44.03:679][373]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.44.03:679][373]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.44.03:679][373]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap -0.198
+[2019.07.23-23.44.03:684][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.44.06:085][660]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.44.06:086][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.44.06:114][660]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.44.06:115][660]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.44.06:151][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.44.06:163][660]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.07.23-23.44.06:190][663]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.07.23-23.44.42:117][140]LogHotReload: New module detected: UE4Editor-July_15_car_test-0054.dll
+[2019.07.23-23.44.42:796][143]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.44.42:846][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.07.23-23.44.42:846][143]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.44.42:862][143]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.44.42:863][143]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.44.42:866][143]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.44.42:917][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.07.23-23.44.42:917][143]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.44.42:928][143]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.44.42:930][143]Display: HotReload took  0.1s.
+[2019.07.23-23.44.54:464][177]LogHotReload: New module detected: UE4Editor-July_15_car_test-0055.dll
+[2019.07.23-23.44.55:150][180]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.44.55:216][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2019.07.23-23.44.55:216][180]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.44.55:232][180]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.44.55:232][180]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.44.55:235][180]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.44.55:297][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2019.07.23-23.44.55:297][180]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.44.55:308][180]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.44.55:311][180]Display: HotReload took  0.2s.
+[2019.07.23-23.45.31:508][485]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.45.31:522][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.45.31:522][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.45.31:522][485]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:45:31 AM)
+[2019.07.23-23.45.31:522][485]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.45.31:524][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001734s)
+[2019.07.23-23.45.31:524][485]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.45.31:524][485]LogPlayLevel: PIE: World Init took: (0.000381s)
+[2019.07.23-23.45.31:524][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002206s)
+[2019.07.23-23.45.31:574][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.07.23-23.45.31:578][485]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.45.31:583][485]LogInit: FAudioDevice initialized.
+[2019.07.23-23.45.31:615][485]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.45.31:620][485]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.45.31
+[2019.07.23-23.45.31:622][485]LogWorld: Bringing up level for play took: 0.003956
+[2019.07.23-23.45.31:636][485]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.45.31:637][485]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.45.31:637][485]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.45.31:638][485]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.45.31:638][485]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap -0.241
+[2019.07.23-23.45.31:642][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.45.39:599][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.45.39:717][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.45.39:717][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.45.39:744][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.45.39:744][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.45.39:778][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.45.39:781][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.07.23-23.45.39:816][435]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.07.23-23.46.12:772][743]LogHotReload: New module detected: UE4Editor-July_15_car_test-0056.dll
+[2019.07.23-23.46.13:452][746]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.46.13:487][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.07.23-23.46.13:487][746]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.46.13:504][746]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.46.13:504][746]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.46.13:507][746]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.46.13:557][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.07.23-23.46.13:557][746]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.46.13:568][746]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.46.13:571][746]Display: HotReload took  0.1s.
+[2019.07.23-23.47.02:620][ 64]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.47.02:633][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.47.02:633][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.47.02:633][ 64]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:47:02 AM)
+[2019.07.23-23.47.02:633][ 64]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.47.02:635][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001762s)
+[2019.07.23-23.47.02:635][ 64]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.47.02:635][ 64]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2019.07.23-23.47.02:635][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002232s)
+[2019.07.23-23.47.02:691][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.07.23-23.47.02:695][ 64]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.47.02:700][ 64]LogInit: FAudioDevice initialized.
+[2019.07.23-23.47.02:725][ 64]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.47.02:727][ 64]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.47.02
+[2019.07.23-23.47.02:727][ 64]LogWorld: Bringing up level for play took: 0.000949
+[2019.07.23-23.47.02:739][ 64]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.47.02:739][ 64]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.47.02:739][ 64]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.47.02:739][ 64]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.47.02:739][ 64]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 0.86
+[2019.07.23-23.47.02:740][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.47.15:506][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.47.15:581][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.47.15:581][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.47.15:611][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.47.15:611][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.47.15:649][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.47.15:661][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.07.23-23.47.15:687][588]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.07.23-23.48.32:001][412]LogHotReload: New module detected: UE4Editor-July_15_car_test-0057.dll
+[2019.07.23-23.48.32:686][415]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.48.32:735][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.07.23-23.48.32:735][415]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.48.32:752][415]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.48.32:752][415]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.48.32:755][415]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.48.32:804][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.07.23-23.48.32:804][415]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.48.32:815][415]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.48.32:817][415]Display: HotReload took  0.1s.
+[2019.07.23-23.50.38:652][ 39]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.50.38:665][ 39]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.50.38:665][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.50.38:665][ 39]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:50:38 AM)
+[2019.07.23-23.50.38:665][ 39]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.50.38:667][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001968s)
+[2019.07.23-23.50.38:668][ 39]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.50.38:668][ 39]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2019.07.23-23.50.38:668][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002562s)
+[2019.07.23-23.50.38:721][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.07.23-23.50.38:724][ 39]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.50.38:730][ 39]LogInit: FAudioDevice initialized.
+[2019.07.23-23.50.38:756][ 39]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.50.38:757][ 39]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.50.38
+[2019.07.23-23.50.38:757][ 39]LogWorld: Bringing up level for play took: 0.001041
+[2019.07.23-23.50.38:768][ 39]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.50.38:768][ 39]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.50.38:768][ 39]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.50.38:768][ 39]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.50.38:768][ 39]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 0.887
+[2019.07.23-23.50.38:769][ 39]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.50.42:729][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.50.42:729][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.50.42:757][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.50.42:757][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.50.42:803][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.50.42:816][514]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.07.23-23.50.42:834][516]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.07.23-23.51.13:876][796]LogHotReload: New module detected: UE4Editor-July_15_car_test-0058.dll
+[2019.07.23-23.51.14:890][800]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-23.51.14:923][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.07.23-23.51.14:923][800]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.23-23.51.14:939][800]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.23-23.51.14:939][800]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.23-23.51.14:942][800]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.23-23.51.14:993][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.07.23-23.51.14:993][800]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.23-23.51.15:004][800]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2735 classes and 663 folders.
+[2019.07.23-23.51.15:006][800]Display: HotReload took  0.1s.
+[2019.07.23-23.51.42:545][161]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.51.42:558][161]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.51.42:558][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.51.42:558][161]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:51:42 AM)
+[2019.07.23-23.51.42:558][161]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.51.42:560][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001766s)
+[2019.07.23-23.51.42:560][161]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.51.42:561][161]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2019.07.23-23.51.42:561][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002235s)
+[2019.07.23-23.51.42:616][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.07.23-23.51.42:619][161]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.51.42:624][161]LogInit: FAudioDevice initialized.
+[2019.07.23-23.51.42:653][161]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.51.42:656][161]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.51.42
+[2019.07.23-23.51.42:657][161]LogWorld: Bringing up level for play took: 0.003156
+[2019.07.23-23.51.42:670][161]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.51.42:671][161]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.51.42:671][161]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.51.42:671][161]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.51.42:671][161]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 0.789
+[2019.07.23-23.51.42:674][161]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.52.27:162][489]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.52.27:162][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.52.27:192][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.52.27:192][489]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.52.27:229][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.52.27:233][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.07.23-23.52.27:267][493]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.07.23-23.53.30:808][155]LogTemp: Repeating last play command: Simulate
+[2019.07.23-23.53.30:819][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.53.30:819][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.23-23.53.30:819][155]PIE: New page: SIE session: NewMap (Jul 23, 2019, 9:53:30 AM)
+[2019.07.23-23.53.30:819][155]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.23-23.53.30:821][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001958s)
+[2019.07.23-23.53.30:822][155]LogAIModule: Creating AISystem for world NewMap
+[2019.07.23-23.53.30:822][155]LogPlayLevel: PIE: World Init took: (0.000464s)
+[2019.07.23-23.53.30:822][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.002510s)
+[2019.07.23-23.53.30:851][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.07.23-23.53.30:854][155]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-23.53.30:860][155]LogInit: FAudioDevice initialized.
+[2019.07.23-23.53.30:890][155]LogLoad: Game class is 'testGameMode_C'
+[2019.07.23-23.53.30:891][155]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.23-16.53.30
+[2019.07.23-23.53.30:891][155]LogWorld: Bringing up level for play took: 0.001003
+[2019.07.23-23.53.30:903][155]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.23-23.53.30:903][155]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.23-23.53.30:903][155]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.53.30:903][155]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.23-23.53.30:903][155]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 1.021
+[2019.07.23-23.53.30:904][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.54.02:507][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-23.54.02:617][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.54.02:617][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.54.02:650][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.23-23.54.02:650][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.23-23.54.02:685][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-23.54.02:688][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.07.23-23.54.02:723][936]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.07.24-00.39.46:401][560]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_WayPoint.BP_WayPoint
+[2019.07.24-00.39.46:643][560]LogActor: Warning: BP_WayPoint_C /Engine/Transient.World_5:PersistentLevel.BP_WayPoint_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.07.24-00.39.46:647][560]LogSlate: Took 0.002538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.24-00.42.44:515][904]LogHotReload: New module detected: UE4Editor-July_15_car_test-0059.dll
+[2019.07.24-00.42.45:205][907]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.24-00.42.45:250][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.07.24-00.42.45:250][907]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.24-00.42.45:263][907]LogClass: Could not find existing class DummyCar in package /Script/July_15_car_test for HotReload, assuming new class
+[2019.07.24-00.42.45:263][907]LogClass: Could not find existing class WayPoint in package /Script/July_15_car_test for HotReload, assuming new class
+[2019.07.24-00.42.45:269][907]LogHotReload: Re-instancing DummyCar after hot-reload.
+[2019.07.24-00.42.45:294][907]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP_WayPoint.BP_WayPoint_C for a property of Class /Script/July_15_car_test.WayPoint. Reference will be nullptred.
+    Property = ObjectProperty /Script/July_15_car_test.DummyCar:WayPoint
+    Item = BP_WayPoint_C /Game/sceneMap/NewMap.NewMap:PersistentLevel.BP_WayPoint_8
+[2019.07.24-00.42.45:536][907]LogHotReload: Re-instancing WayPoint after hot-reload.
+[2019.07.24-00.42.45:540][907]LogActor: Warning: BP_WayPoint_C /Engine/Transient.World_5:PersistentLevel.BP_WayPoint_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.07.24-00.42.45:541][907]LogActor: Warning: BP_WayPoint_C /Game/sceneMap/NewMap.NewMap:PersistentLevel.BP_WayPoint_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.07.24-00.42.45:764][907]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.24-00.42.45:764][907]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.24-00.42.45:768][907]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.24-00.42.45:803][907]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.07.24-00.42.45:803][907]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.24-00.42.45:816][907]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2735 classes and 663 folders.
+[2019.07.24-00.42.45:818][907]Display: HotReload took  0.6s.
+[2019.07.24-00.44.16:552][441]LogHotReload: New module detected: UE4Editor-July_15_car_test-0060.dll
+[2019.07.24-00.44.17:433][539]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.24-00.44.17:491][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.07.24-00.44.17:491][539]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (unloaded)
+[2019.07.24-00.44.17:511][539]LogHotReload: Re-instancing WayPoint after hot-reload.
+[2019.07.24-00.44.17:516][539]LogActor: Warning: BP_WayPoint_C /Engine/Transient.World_5:PersistentLevel.BP_WayPoint_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.07.24-00.44.17:516][539]LogActor: Warning: BP_WayPoint_C /Game/sceneMap/NewMap.NewMap:PersistentLevel.BP_WayPoint_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.07.24-00.44.17:833][539]LogBlueprintActionDatabase: Requesting refresh due to module change: July_15_car_test (loaded)
+[2019.07.24-00.44.17:833][539]LogContentBrowser: Native class hierarchy updated for 'July_15_car_test' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.24-00.44.17:837][539]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.24-00.44.17:898][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2019.07.24-00.44.17:898][539]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.24-00.44.17:909][539]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2735 classes and 663 folders.
+[2019.07.24-00.44.17:911][539]Display: HotReload took  0.5s.
+[2019.07.24-00.45.18:176][734]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Cube.Cube
+[2019.07.24-00.45.39:729][283]LogActor: Warning: BP_WayPoint_C /Engine/Transient.World_9:PersistentLevel.BP_WayPoint_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.07.24-00.46.14:731][471]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.07.24-00.46.14:731][471]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.07.24-00.46.15:521][471]LogWindows: Error: === Critical error: ===
+[2019.07.24-00.46.15:521][471]LogWindows: Error: 
+[2019.07.24-00.46.15:521][471]LogWindows: Error: Assertion failed: !EditReregisterContexts.Find(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 566] 
+[2019.07.24-00.46.15:521][471]LogWindows: Error: 
+[2019.07.24-00.46.15:521][471]LogWindows: Error: 
+[2019.07.24-00.46.15:521][471]LogWindows: Error: 
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffd3aa2a388 KERNELBASE.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcfa051f07 UE4Editor-Core.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcfa0546b7 UE4Editor-Core.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf9e67cea UE4Editor-Core.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf9defe07 UE4Editor-Core.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf9df0499 UE4Editor-Core.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf71e86ab UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf989ca02 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf989e49c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf989caf1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf989e49c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf989caf1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf307d284 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.07.24-00.46.15:521][471]LogWindows: Error: [Callstack] 0x00007ffcf306d7f1 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf306e337 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf30b8069 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf30b87eb UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf309d170 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf303db18 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf6898bef UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf689f390 UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf687a2c4 UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf6932a12 UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf68a0c95 UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf6784021 UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf6800301 UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf67eaaca UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffcf67e0414 UE4Editor-Slate.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd2030b8e0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd202fef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd2030d77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd202fc090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd3d6d6d41 USER32.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd3d6d6713 USER32.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd2030e946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ff69bd85d3e UE4Editor.exe!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ff69bd9554c UE4Editor.exe!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ff69bd955ca UE4Editor.exe!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ff69bda316c UE4Editor.exe!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ff69bda5b8e UE4Editor.exe!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd3af94034 KERNEL32.DLL!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: [Callstack] 0x00007ffd3d973691 ntdll.dll!UnknownFunction []
+[2019.07.24-00.46.15:522][471]LogWindows: Error: 
+[2019.07.24-00.46.15:535][471]LogExit: Executing StaticShutdownAfterError
+[2019.07.24-00.46.15:539][471]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.07.24-00.46.15:541][471]Log file closed, 07/23/19 17:46:15

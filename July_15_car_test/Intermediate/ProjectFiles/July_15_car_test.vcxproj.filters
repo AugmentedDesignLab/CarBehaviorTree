@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\July_15_car_test.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CB449B7D-44D2-433C-9089-5F0CC7AA57F4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\July_15_car_test.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\July_15_car_testEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BB4AC952-24C8-4A7A-B41C-221D91BA96CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\July_15_car_test">
+      <UniqueIdentifier>{9883D249-E108-4D97-A8DB-1C362123A13B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\July_15_car_test\DummyCar.cpp">
+      <Filter>Source\July_15_car_test</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\July_15_car_test\DummyCar.h">
+      <Filter>Source\July_15_car_test</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\July_15_car_test\July_15_car_test.Build.cs">
+      <Filter>Source\July_15_car_test</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\July_15_car_test\July_15_car_test.cpp">
+      <Filter>Source\July_15_car_test</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\July_15_car_test\July_15_car_test.h">
+      <Filter>Source\July_15_car_test</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\July_15_car_test\WayPoint.cpp">
+      <Filter>Source\July_15_car_test</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\July_15_car_test\WayPoint.h">
+      <Filter>Source\July_15_car_test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
