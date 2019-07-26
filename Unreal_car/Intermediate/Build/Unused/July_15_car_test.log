@@ -1,5 +1,6 @@
-﻿  Parsing headers for July_15_car_testEditor
-    Running UnrealHeaderTool "C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\July_15_car_test.uproject" "C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\July_15_car_testEditor\Development\July_15_car_testEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for July_15_car_testEditor in 4.4340381 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\abjawad\Documents\GitHub\CarBehaviorTree).
+  Parsing headers for July_15_car_testEditor
+    Running UnrealHeaderTool "C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\July_15_car_test.uproject" "C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Intermediate\Build\Win64\July_15_car_testEditor\Development\July_15_car_testEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for July_15_car_testEditor in 4.5249183 seconds
   Target is up to date
-  Total execution time: 4.82 seconds
+  Total execution time: 4.92 seconds

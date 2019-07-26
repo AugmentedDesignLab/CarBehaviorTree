@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define JULY_15_CAR_TEST_WayPoint_generated_h
 
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_RPC_WRAPPERS
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_INCLASS_NO_PURE_DECLS \
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_RPC_WRAPPERS
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWayPoint(); \
 	friend struct Z_Construct_UClass_AWayPoint_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AWayPoint)
 
 
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_INCLASS \
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAWayPoint(); \
 	friend struct Z_Construct_UClass_AWayPoint_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AWayPoint)
 
 
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_STANDARD_CONSTRUCTORS \
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWayPoint(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWayPoint) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_ENHANCED_CONSTRUCTORS \
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AWayPoint(AWayPoint&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWayPoint); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AWayPoint)
 
 
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_PRIVATE_PROPERTY_OFFSET
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_11_PROLOG
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_GENERATED_BODY_LEGACY \
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_PRIVATE_PROPERTY_OFFSET
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_11_PROLOG
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	July_15_car_test_Source_July_15_car_test_WayPoint_h_14_PRIVATE_PROPERTY_OFFSET \
-	July_15_car_test_Source_July_15_car_test_WayPoint_h_14_RPC_WRAPPERS \
-	July_15_car_test_Source_July_15_car_test_WayPoint_h_14_INCLASS \
-	July_15_car_test_Source_July_15_car_test_WayPoint_h_14_STANDARD_CONSTRUCTORS \
+	Unreal_car_Source_July_15_car_test_WayPoint_h_14_PRIVATE_PROPERTY_OFFSET \
+	Unreal_car_Source_July_15_car_test_WayPoint_h_14_RPC_WRAPPERS \
+	Unreal_car_Source_July_15_car_test_WayPoint_h_14_INCLASS \
+	Unreal_car_Source_July_15_car_test_WayPoint_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define July_15_car_test_Source_July_15_car_test_WayPoint_h_14_GENERATED_BODY \
+#define Unreal_car_Source_July_15_car_test_WayPoint_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	July_15_car_test_Source_July_15_car_test_WayPoint_h_14_PRIVATE_PROPERTY_OFFSET \
-	July_15_car_test_Source_July_15_car_test_WayPoint_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	July_15_car_test_Source_July_15_car_test_WayPoint_h_14_INCLASS_NO_PURE_DECLS \
-	July_15_car_test_Source_July_15_car_test_WayPoint_h_14_ENHANCED_CONSTRUCTORS \
+	Unreal_car_Source_July_15_car_test_WayPoint_h_14_PRIVATE_PROPERTY_OFFSET \
+	Unreal_car_Source_July_15_car_test_WayPoint_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	Unreal_car_Source_July_15_car_test_WayPoint_h_14_INCLASS_NO_PURE_DECLS \
+	Unreal_car_Source_July_15_car_test_WayPoint_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -84,7 +84,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> JULY_15_CAR_TEST_API UClass* StaticClass<class AWayPoint>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID July_15_car_test_Source_July_15_car_test_WayPoint_h
+#define CURRENT_FILE_ID Unreal_car_Source_July_15_car_test_WayPoint_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

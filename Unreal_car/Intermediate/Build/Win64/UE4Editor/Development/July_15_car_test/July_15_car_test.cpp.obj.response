@@ -438,9 +438,9 @@
 /I Runtime\AnimGraphRuntime\Public\BoneControllers
 /I Runtime\AnimGraphRuntime\Public\RBF
 /I ..\Plugins\Runtime\PhysXVehicles\Source\ThirdParty
-/I "C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\UE4Editor\Inc\July_15_car_test"
-/I "C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Source"
-/I "C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Source\July_15_car_test"
+/I C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Intermediate\Build\Win64\UE4Editor\Inc\July_15_car_test
+/I C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Source
+/I C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Source\July_15_car_test
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -470,12 +470,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\July_15_car_testEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\July_15_car_testEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\July_15_car_testEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Source\July_15_car_test\July_15_car_test.cpp"
-/FI"C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\Definitions.July_15_car_test.h"
-/Fo"C:\Users\abjawad\Documents\Unreal Projects\July_15_car_test\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\July_15_car_test.cpp.obj"
+/FI"C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Intermediate\Build\Win64\July_15_car_testEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Intermediate\Build\Win64\July_15_car_testEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Intermediate\Build\Win64\July_15_car_testEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Source\July_15_car_test\July_15_car_test.cpp"
+/FI"C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\Definitions.July_15_car_test.h"
+/Fo"C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\July_15_car_test.cpp.obj"
 /TP
 /GR-
 /W4
