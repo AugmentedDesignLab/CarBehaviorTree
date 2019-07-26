@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.22",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "July_15_car_test",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine", "PhysXVehicles"
+			]
+		}
+	],
+	"Plugins" : [
+	{
+	"Enabled" : true,
+	"Name" : "PhysXVehicles"
+	}
+	]
+}
