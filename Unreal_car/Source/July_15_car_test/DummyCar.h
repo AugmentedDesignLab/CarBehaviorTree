@@ -43,7 +43,13 @@ public:
 	UPROPERTY(EditAnywhere)
 	AWayPoint *WayPoint;
 
+	UPROPERTY(EditAnywhere)
+	float BrakeDistance = 0.0;
+
 	void PrintLog(FString text);
+
+	UFUNCTION(BlueprintCallable)
+	bool SetBrakeDistance(float a);
 
 	/*
 	int Index = 0;

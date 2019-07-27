@@ -33,6 +33,16 @@ void ADummyCar::Tick(float DeltaTime)
 	FVector delta_distance = this->GetVelocity() * DeltaTime * C1;
 	TravelDistance += delta_distance.Size();
 
+	//this->PrintLog(" outside if " + FString::SanitizeFloat(TravelDistance) + "  >> " + FString::SanitizeFloat(BrakeDistance));
+	//test portion for BT and BB
+	if(TravelDistance > BrakeDistance)
+	{
+		this->GetVehicleMovement()->SetBrakeInput(1);
+		this->PrintLog(" Car Brake!!!!!! " + FString::SanitizeFloat(TravelDistance) + "  >> " + FString::SanitizeFloat(BrakeDistance));
+	}
+
+
+
 	//getting car location and rotation
 	FVector car_loc = this->GetActorLocation();
 	FRotator car_rot = this->GetActorRotation();
@@ -57,7 +67,6 @@ void ADummyCar::Tick(float DeltaTime)
 	else {
 		car_move_direction = FVector::ZeroVector;
 	}
-	this->PrintLog("dir " + FString::SanitizeFloat(car_move_direction.Size()));
 	
 	UKismetSystemLibrary::DrawDebugArrow(this, car_loc, car_loc + car_move_direction * 1000, 500, FColor::Magenta, 0.1, 20);
 
@@ -86,4 +95,11 @@ void ADummyCar::Tick(float DeltaTime)
 void ADummyCar::PrintLog(FString text)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::White, *text);
+}
+
+bool ADummyCar::SetBrakeDistance(float a)
+{
+	this->BrakeDistance = a;
+	//this->PrintLog("Brake Point Set ");
+	return true;
 }

@@ -10,8 +10,8 @@ AWayPoint::AWayPoint()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	
-	Sphere = CreateDefaultSubobject<UStaticMeshComponent>("SphereObject");
-	Arrow = CreateDefaultSubobject<UArrowComponent>("ArrowComponent");
+	//Sphere = CreateDefaultSubobject<UStaticMeshComponent>("SphereObject");
+	//Arrow = CreateDefaultSubobject<UArrowComponent>("ArrowComponent");
 	SP = CreateDefaultSubobject<USplineComponent>("SplineObject");
 	RootComponent = SP;
 
@@ -22,6 +22,8 @@ void AWayPoint::BeginPlay()
 {
 	Super::BeginPlay();
 	TotalDistance = SP->GetSplineLength();
+	FString distance = " total distance" + FString::SanitizeFloat(TotalDistance);
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, *distance);
 	/*
 	//TotalDistance = SP->GetSplineLength();
 	TotalPoint = 0;

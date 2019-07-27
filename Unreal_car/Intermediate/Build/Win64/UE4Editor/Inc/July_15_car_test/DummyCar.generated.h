@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define JULY_15_CAR_TEST_DummyCar_generated_h
 
-#define Unreal_car_Source_July_15_car_test_DummyCar_h_18_RPC_WRAPPERS
-#define Unreal_car_Source_July_15_car_test_DummyCar_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define Unreal_car_Source_July_15_car_test_DummyCar_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetBrakeDistance) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_a); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->SetBrakeDistance(Z_Param_a); \
+		P_NATIVE_END; \
+	}
+
+
+#define Unreal_car_Source_July_15_car_test_DummyCar_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetBrakeDistance) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_a); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->SetBrakeDistance(Z_Param_a); \
+		P_NATIVE_END; \
+	}
+
+
 #define Unreal_car_Source_July_15_car_test_DummyCar_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADummyCar(); \

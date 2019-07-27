@@ -48,4 +48,14 @@
       <Filter>Source\July_15_car_test</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\July_15_car_test\WayPointSpawner.h">
+      <Filter>Source\July_15_car_test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\July_15_car_test\WayPointSpawner.cpp">
+      <Filter>Source\July_15_car_test</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
