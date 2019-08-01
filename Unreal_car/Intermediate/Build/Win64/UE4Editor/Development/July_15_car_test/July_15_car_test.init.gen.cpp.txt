@@ -1,3 +1,0 @@
-C:\Users\abjawad\Documents\GitHub\CarBehaviorTree\Unreal_car\Intermediate\Build\Win64\UE4Editor\Development\July_15_car_test\Definitions.July_15_car_test.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
