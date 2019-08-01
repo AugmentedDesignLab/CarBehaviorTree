@@ -70,6 +70,9 @@ Saved/*
 Intermediate/*
 Plugins/*/Intermediate/*
 
+Unreal_car/Intermediate/*
+Unreal_car/Saved/*
+
 # Cache files for the editor to use
 DerivedDataCache/*
 *.log
