@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 08/01/19 14:37:14
+=======
+﻿Log file open, 07/25/19 18:46:34
+>>>>>>> parent of ca4c2ff... Vehicle Controller and control struct
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +14,11 @@ LogInit: Display: Running engine for game: July_15_car_test
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.535355
+=======
+LogStats: Stats thread started at 0.591147
+>>>>>>> parent of ca4c2ff... Vehicle Controller and control struct
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,7 +133,7 @@ LogInit: Compiled (64-bit): Apr 24 2019 04:36:48
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
-LogInit: Command Line: 
+LogInit: Command Line:  -skipcompile
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -156,6 +164,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2019.08.01-21.37.15:145][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.08.01-21.37.15:145][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.08.01-21.37.15:145][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Engine.ini]
@@ -573,3 +582,532 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.01-21.38.09:127][467]LogDirectoryWatcher: A directory notification failed for 'C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Content/Collections/' because it could not be accessed. Aborting watch request...
 [2019.08.01-21.38.09:127][467]LogDirectoryWatcher: A directory notification failed for 'C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Content/Developers/abjawad/Collections/' because it could not be accessed. Aborting watch request...
 [2019.08.01-21.38.09:127][467]LogDirectoryWatcher: A directory notification failed for 'C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Collections/' because it could not be accessed. Aborting watch request...
+=======
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Engine.ini]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Engine.ini]
+[2019.07.26-01.46.34:713][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Engine.ini]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.26-01.46.34:713][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Engine.ini]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.26-01.46.34:714][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Engine.ini]
+[2019.07.26-01.46.34:714][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Engine.ini]
+[2019.07.26-01.46.34:718][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.26-01.46.34:718][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.26-01.46.34:719][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.26-01.46.34:720][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.26-01.46.34:721][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.26-01.46.34:722][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:722][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.26-01.46.34:722][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.26-01.46.34:722][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.26-01.46.34:722][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.26-01.46.34:731][  0]LogHAL: Display: Platform has ~ 32 GB [34169233408 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.26-01.46.34:731][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.07.26-01.46.34:731][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.26-01.46.34:731][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:731][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.26-01.46.34:731][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.26-01.46.34:731][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:731][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.26-01.46.34:731][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:731][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.26-01.46.34:731][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.26-01.46.34:732][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.26-01.46.34:733][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.26-01.46.34:734][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Scalability.ini]
+[2019.07.26-01.46.34:734][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.26-01.46.34:735][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.26-01.46.34:735][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.26-01.46.34:735][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.26-01.46.34:735][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.07.26-01.46.34:735][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Config/Windows/Engine.ini]
+[2019.07.26-01.46.34:735][  0]LogInit: Computer: PARTICLE
+[2019.07.26-01.46.34:735][  0]LogInit: User: abjawad
+[2019.07.26-01.46.34:735][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.07.26-01.46.34:735][  0]LogInit: High frequency timer resolution =3.515629 MHz
+[2019.07.26-01.46.34:735][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2019.07.26-01.46.34:735][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.26-01.46.34:735][  0]LogMemory: Process Physical Memory: 99.42 MB used, 99.42 MB peak
+[2019.07.26-01.46.34:735][  0]LogMemory: Process Virtual Memory: 99.09 MB used, 99.09 MB peak
+[2019.07.26-01.46.34:735][  0]LogMemory: Physical Memory: 10253.46 MB used,  22332.86 MB free, 32586.32 MB total
+[2019.07.26-01.46.34:735][  0]LogMemory: Virtual Memory: 4697.66 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2019.07.26-01.46.34:824][  0]LogInit: Using OS detected language (en-US).
+[2019.07.26-01.46.34:824][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.26-01.46.34:824][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.26-01.46.34:943][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.26-01.46.34:974][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.26-01.46.34:974][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.26-01.46.35:108][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.26-01.46.35:108][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.26-01.46.35:166][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2019.07.26-01.46.35:166][  0]LogD3D11RHI:       8031/0/16293 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.07.26-01.46.35:193][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.07.26-01.46.35:193][  0]LogD3D11RHI:       128/0/16293 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.07.26-01.46.35:196][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.26-01.46.35:196][  0]LogD3D11RHI:       0/0/16293 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.26-01.46.35:196][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.26-01.46.35:200][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.26-01.46.35:201][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.26-01.46.35:201][  0]LogWindows: EnumDisplayDevices:
+[2019.07.26-01.46.35:201][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2019.07.26-01.46.35:201][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.07.26-01.46.35:201][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.07.26-01.46.35:202][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.07.26-01.46.35:202][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.07.26-01.46.35:202][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.07.26-01.46.35:202][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.07.26-01.46.35:203][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.07.26-01.46.35:203][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2019.07.26-01.46.35:203][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.07.26-01.46.35:203][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.07.26-01.46.35:203][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2019.07.26-01.46.35:239][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.26-01.46.35:242][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.26-01.46.35:242][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.26-01.46.35:242][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.26-01.46.35:249][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.26-01.46.35:491][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.07.26-01.46.35:502][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.07.26-01.46.35:513][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.07.26-01.46.35:524][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.07.26-01.46.35:535][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.07.26-01.46.35:546][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.07.26-01.46.35:557][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.07.26-01.46.35:567][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.07.26-01.46.35:574][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.07.26-01.46.35:631][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.07.26-01.46.35:632][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.07.26-01.46.35:633][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.07.26-01.46.35:633][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.07.26-01.46.35:633][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.07.26-01.46.35:633][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.07.26-01.46.35:633][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.07.26-01.46.35:635][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.07.26-01.46.35:679][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.07.26-01.46.35:679][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.07.26-01.46.35:695][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.07.26-01.46.35:695][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.07.26-01.46.35:705][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.07.26-01.46.35:715][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.07.26-01.46.35:724][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.07.26-01.46.35:735][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.07.26-01.46.35:769][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.07.26-01.46.35:769][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.07.26-01.46.35:769][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.26-01.46.35:779][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.07.26-01.46.35:831][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Intermediate/Shaders/WorkingDirectory/8240/).
+[2019.07.26-01.46.35:832][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abjawad/AppData/Local/Temp/UnrealShaderWorkingDir/5267224B4B05C2E42EDAEB897F68C9C2/'.
+[2019.07.26-01.46.35:833][  0]LogXGEController: Cleaning working directory: C:/Users/abjawad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.26-01.46.35:834][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.26-01.46.35:834][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.26-01.46.35:834][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.26-01.46.36:232][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.26-01.46.36:275][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/abjawad/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.26-01.46.36:275][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/abjawad/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.07.26-01.46.36:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.26-01.46.36:275][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.26-01.46.36:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.26-01.46.36:275][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.26-01.46.36:284][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.26-01.46.36:285][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.26-01.46.36:285][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.07.26-01.46.36:297][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abjawad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.26-01.46.36:297][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.26-01.46.36:297][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.26-01.46.36:318][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.26-01.46.36:319][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.26-01.46.36:319][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.26-01.46.36:387][  0]LogAssetRegistry: FAssetRegistry took 0.0311 seconds to start up
+[2019.07.26-01.46.36:620][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.26-01.46.36:732][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.26-01.46.36:732][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.07.26-01.46.36:733][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.26-01.46.36:733][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.26-01.46.36:733][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.26-01.46.36:744][  0]LogNetVersion: July_15_car_test 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2018011856)
+[2019.07.26-01.46.37:026][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.029996 seconds
+[2019.07.26-01.46.37:031][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.07.26-01.46.37:031][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.07.26-01.46.37:031][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.26-01.46.37:678][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.26-01.46.37:693][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.26-01.46.37:825][  0]SourceControl: Source control is disabled
+[2019.07.26-01.46.37:825][  0]SourceControl: Source control is disabled
+[2019.07.26-01.46.37:828][  0]SourceControl: Source control is disabled
+[2019.07.26-01.46.37:830][  0]SourceControl: Source control is disabled
+[2019.07.26-01.46.37:917][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.26-01.46.37:995][  0]LogOcInput: OculusInput pre-init called
+[2019.07.26-01.46.38:501][  0]LogEngine: Initializing Engine...
+[2019.07.26-01.46.38:502][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.26-01.46.38:502][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.07.26-01.46.38:659][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.26-01.46.38:672][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.26-01.46.38:716][  0]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.26-01.46.38:790][  0]LogInit: FAudioDevice initialized.
+[2019.07.26-01.46.38:790][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.26-01.46.38:832][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/abjawad/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.26-01.46.38:835][  0]LogInit: Texture streaming: Enabled
+[2019.07.26-01.46.38:856][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.26-01.46.38:874][  0]LogInit: Transaction tracking system initialized
+[2019.07.26-01.46.38:900][  0]BlueprintLog: New page: Editor Load
+[2019.07.26-01.46.38:998][  0]LocalizationService: Localization service is disabled
+[2019.07.26-01.46.39:261][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Content/' took 0.01s
+[2019.07.26-01.46.39:261][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.26-01.46.39:261][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.26-01.46.39:433][  0]SourceControl: Source control is disabled
+[2019.07.26-01.46.39:433][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.26-01.46.39:433][  0]LightingResults: New page: Lighting Build
+[2019.07.26-01.46.39:435][  0]MapCheck: New page: Map Check
+[2019.07.26-01.46.39:435][  0]LightingResults: New page: Lighting Build
+[2019.07.26-01.46.39:459][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2019.07.26-01.46.39:514][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.07.26-01.46.39:517][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.26-01.46.39:546][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.07.26-01.46.39:546][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.26-01.46.39:546][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.119ms to complete.
+[2019.07.26-01.46.39:546][  0]LogFileHelpers: Loading map 'Template_Default' took 0.113
+[2019.07.26-01.46.39:649][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.46.39:654][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.46.39:660][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.46.39:666][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.46.39:672][  0]LogCollectionManager: Loaded 0 collections in 0.001637 seconds
+[2019.07.26-01.46.39:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Saved/Collections/' took 0.01s
+[2019.07.26-01.46.39:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Content/Developers/abjawad/Collections/' took 0.00s
+[2019.07.26-01.46.39:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Content/Collections/' took 0.00s
+[2019.07.26-01.46.39:687][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.26-01.46.39:694][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2734 classes and 661 folders.
+[2019.07.26-01.46.39:699][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.26-01.46.39:700][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:701][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:701][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:702][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:702][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:704][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:704][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:704][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:705][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:705][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:705][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:706][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:706][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:706][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:707][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:707][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:708][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:708][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:708][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:710][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.26-01.46.39:736][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.26-01.46.39:743][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.07.26-01.46.39:758][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.26-01.46.39:759][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.26-01.46.39:763][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.26-01.46.39:807][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2019.07.26-01.46.39:973][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.26-01.46.39:973][  0]LogLoad: (Engine Initialization) Total time: 7.32 seconds
+[2019.07.26-01.46.39:974][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.26-01.46.39:985][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.26-01.46.39:998][  0]LogAssetRegistry: Asset discovery search completed in 3.6351 seconds
+[2019.07.26-01.46.40:000][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.26-01.46.40:000][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000138 seconds (updated 0 objects)
+[2019.07.26-01.46.40:001][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.26-01.46.59:850][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.47.01:143][914]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.26-01.47.01:166][914]LogLinker: Warning: Can't find file '/Game/sceneMap/NewMap_BuiltData'
+[2019.07.26-01.47.01:166][914]LogLinker: Warning: Can't find file for asset '/Game/sceneMap/NewMap_BuiltData' while loading NULL.
+[2019.07.26-01.47.01:167][914]LogLinker: Warning: Can't find file '/Game/sceneMap/NewMap_BuiltData'
+[2019.07.26-01.47.01:167][914]LogLinker: Warning: Can't find file for asset '/Game/sceneMap/NewMap_BuiltData' while loading NULL.
+[2019.07.26-01.47.01:167][914]LogLinker: Warning: Can't find file '/Game/sceneMap/NewMap_BuiltData'
+[2019.07.26-01.47.01:168][914]LogLinker: Warning: Can't find file for asset '/Game/sceneMap/NewMap_BuiltData' while loading NULL.
+[2019.07.26-01.47.01:168][914]LogLinker: Warning: Can't find file '/Game/sceneMap/NewMap_BuiltData'
+[2019.07.26-01.47.01:168][914]LogLinker: Warning: Can't find file for asset '/Game/sceneMap/NewMap_BuiltData' while loading NULL.
+[2019.07.26-01.47.01:171][914]LogLinker: Warning: Can't find file '/Game/sceneMap/NewMap_BuiltData'
+[2019.07.26-01.47.01:171][914]LoadErrors: Failed to load /Game/sceneMap/NewMap_BuiltData.NewMap_BuiltData Referenced by PersistentLevel
+[2019.07.26-01.47.01:172][914]LogLinker: Warning: Can't find file for asset '/Game/sceneMap/NewMap_BuiltData' while loading NULL.
+[2019.07.26-01.47.01:185][914]LogAIModule: Creating AISystem for world NewMap
+[2019.07.26-01.47.01:189][914]LogAssetEditorManager: Opening Asset editor for World /Game/sceneMap/NewMap.NewMap
+[2019.07.26-01.47.01:216][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.07.26-01.47.01:217][914]Cmd: MAP LOAD FILE="../../../../../../Users/abjawad/Documents/GitHub/CarBehaviorTree/Unreal_car/Content/sceneMap/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.26-01.47.01:217][914]LightingResults: New page: Lighting Build
+[2019.07.26-01.47.01:217][914]LoadErrors: New page: Loading map: NewMap.umap
+[2019.07.26-01.47.01:218][914]MapCheck: New page: Map Check
+[2019.07.26-01.47.01:218][914]LightingResults: New page: Lighting Build
+[2019.07.26-01.47.01:242][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.07.26-01.47.01:243][914]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.26-01.47.01:267][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.07.26-01.47.01:288][914]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.26-01.47.01:288][914]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.092ms to complete.
+[2019.07.26-01.47.01:288][914]LogFileHelpers: Loading map 'NewMap' took 0.072
+[2019.07.26-01.47.05:447][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.47.05:522][417]MapCheck: New page: Map Check
+[2019.07.26-01.47.05:535][417]Cmd: MAP REBUILD ALLVISIBLE
+[2019.07.26-01.47.05:535][417]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.07.26-01.47.05:567][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.07.26-01.47.05:575][417]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.26-01.47.05:586][417]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.26-01.47.05:592][417]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.26-01.47.05:863][417]TextureStreamingBuild: Display: Compiling optional shaders took 0.294 seconds.
+[2019.07.26-01.47.05:866][417]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2019.07.26-01.47.05:870][417]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2019.07.26-01.47.05:895][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.07.26-01.47.05:896][417]LightingResults: New page: Lighting Build - Jul 25, 2019, 11:47:05 AM
+[2019.07.26-01.47.05:929][417]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.07.26-01.47.06:003][417]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.07.26-01.47.06:013][417]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.07.26-01.47.06:520][417]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.07.26-01.47.06:520][417]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8240
+[2019.07.26-01.47.13:122][417]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.07.26-01.47.13:122][417]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.07.26-01.47.13:122][417]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.07.26-01.47.13:122][417]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.07.26-01.47.13:122][417]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.07.26-01.47.13:123][417]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.07.26-01.47.13:259][417]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.07.26-01.47.13:259][417]MapCheck: New page: NewMap - Jul 25, 2019, 11:47:13 AM
+[2019.07.26-01.47.13:259][417]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.07.26-01.47.13:260][417]MapCheck: Warning: BP_WayPoint_15 Static mesh actor has NULL StaticMesh property 
+[2019.07.26-01.47.13:260][417]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 0.564ms to complete.
+[2019.07.26-01.47.13:284][417]LogEditorBuildUtils: Build time 0:07
+[2019.07.26-01.47.13:342][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2019.07.26-01.47.16:412][427]Job is a success!
+[2019.07.26-01.47.16:817][428]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.039s
+[2019.07.26-01.47.16:818][428]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.07.26-01.47.16:818][428]LogVolumetricLightmapImport:      BrickData 40x5x5 = 0.0Mb
+[2019.07.26-01.47.16:818][428]LogVolumetricLightmapImport:      Bricks at Level
+[2019.07.26-01.47.16:818][428]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.07.26-01.47.16:818][428]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.07.26-01.47.16:818][428]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.07.26-01.47.16:851][428]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2019.07.26-01.47.16:851][428]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2019.07.26-01.47.16:851][428]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2019.07.26-01.47.16:877][428]Lightmass on PARTICLE: 3.08 sec total, 80 ms importing, 11 ms setup, 1.46 sec photons, 1.50 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 21.5 sec total, 126 ms processing.
+[2019.07.26-01.47.16:908][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2019.07.26-01.47.16:917][428]LogStaticLightingSystem: Illumination: 10.6 sec (12 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2019.07.26-01.47.16:917][428]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.07.26-01.47.16:917][428]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.07.26-01.47.17:132][428]DumpUnbuiltLightIteractions
+[2019.07.26-01.47.17:132][428]Lights with unbuilt interactions: 0
+[2019.07.26-01.47.17:132][428]
+[2019.07.26-01.47.17:132][428]Primitives with unbuilt interactions: 0
+[2019.07.26-01.47.17:184][429]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.07.26-01.47.17:184][429]MapCheck: New page: NewMap - Jul 25, 2019, 11:47:17 AM
+[2019.07.26-01.47.17:184][429]MapCheck: Warning: BP_WayPoint_15 Static mesh actor has NULL StaticMesh property 
+[2019.07.26-01.47.17:184][429]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.418ms to complete.
+[2019.07.26-01.47.55:465][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.47.55:540][170]LogTemp: Repeating last play command: Simulate
+[2019.07.26-01.47.55:553][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.26-01.47.55:553][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.26-01.47.55:553][170]PIE: New page: SIE session: NewMap (Jul 25, 2019, 11:47:55 AM)
+[2019.07.26-01.47.55:566][170]LogPlayLevel: Creating play world package: /Game/sceneMap/UEDPIE_0_NewMap
+[2019.07.26-01.47.55:569][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002546s)
+[2019.07.26-01.47.55:569][170]LogAIModule: Creating AISystem for world NewMap
+[2019.07.26-01.47.55:570][170]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2019.07.26-01.47.55:570][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/sceneMap/NewMap.NewMap to /Game/sceneMap/UEDPIE_0_NewMap.NewMap (0.003861s)
+[2019.07.26-01.47.55:594][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.07.26-01.47.55:598][170]LogInit: XAudio2 using 'ASUS PB278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.26-01.47.55:604][170]LogInit: FAudioDevice initialized.
+[2019.07.26-01.47.55:653][170]LogLoad: Game class is 'testGameMode_C'
+[2019.07.26-01.47.55:654][170]LogWorld: Bringing World /Game/sceneMap/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.25-18.47.55
+[2019.07.26-01.47.55:655][170]LogWorld: Bringing up level for play took: 0.001226
+[2019.07.26-01.47.55:666][170]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.26-01.47.55:666][170]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.26-01.47.55:671][170]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.07.26-01.47.55:671][170]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.47.55:671][170]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.47.55:671][170]PIE: Play in editor start time for /Game/sceneMap/UEDPIE_0_NewMap 0.874
+[2019.07.26-01.47.55:674][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.26-01.47.58:963][544]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.26-01.48.02:446][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.26-01.48.02:447][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.48.02:478][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.26-01.48.02:478][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/sceneMap/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/sceneMap/NewMap.NewMap_C' with ClassGeneratedBy '/Game/sceneMap/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.26-01.48.02:503][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.48.02:506][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.07.26-01.48.02:547][949]LogPlayLevel: Display: Destroying online subsystem :Context_1
+>>>>>>> parent of ca4c2ff... Vehicle Controller and control struct
