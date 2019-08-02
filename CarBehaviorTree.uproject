@@ -9,8 +9,14 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine", "PhysXVehicles"
 			]
 		}
+	],
+	"Plugins" : [
+	{
+	"Enabled" : true,
+	"Name" : "PhysXVehicles"
+	}
 	]
 }
