@@ -28,6 +28,8 @@ public:
 
 	AVehicleMovement* Vehicle;
 
+	float SpeedLimit = 30.0;
+
 	float CalculateSteeringValue(float delta);
 
 	void VahicleBrake(float BrakeValue);

@@ -91,12 +91,23 @@ void AVehicleController::VahicleBrake(float BrakeValue)
 
 float AVehicleController::Move(float Speed)
 {
-	return 0.5f;
+	if (Speed >= SpeedLimit)
+	{
+		return Stop(Speed);
+	}
+	else if (Speed >= SpeedLimit - 10.0f)
+	{
+		return 0.5f;
+	}
+	else
+	{
+		return 1.0f;
+	}
 }
 
 float AVehicleController::Stop(float Speed)
 {
-	return 1.0f;
+	return (Speed >= 1.0f ? -Speed / SpeedLimit : 0.0f);
 }
 
 void AVehicleController::PrintLog(FString Text)
