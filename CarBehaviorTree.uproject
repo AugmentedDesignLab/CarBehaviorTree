@@ -9,14 +9,16 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine", "PhysXVehicles"
+				"Engine",
+				"PhysXVehicles",
+				"AIModule"
 			]
 		}
 	],
-	"Plugins" : [
-	{
-	"Enabled" : true,
-	"Name" : "PhysXVehicles"
-	}
+	"Plugins": [
+		{
+			"Name": "PhysXVehicles",
+			"Enabled": true
+		}
 	]
 }

@@ -1,5 +1,4 @@
 #include "WayPoint.h"
-#include "Engine.h"
 
 // Sets default values
 AWayPoint::AWayPoint()
