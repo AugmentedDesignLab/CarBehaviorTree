@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "WheeledVehicle.h"
 #include "WayPoint.h"
+#include <Runtime\AIModule\Classes\BehaviorTree\BehaviorTree.h>
 #include "Classes/Components/SplineComponent.h"
 #include "WheeledVehicleMovementComponent4W.h"
 #include "VehicleMovement.generated.h"
@@ -58,6 +59,7 @@ public:
 
 	FTransform GetVehicleTransform();
 
+	UFUNCTION(BlueprintPure, Category = "veh")
 	FVector GetVehicleLocation();
 	
 	FVector GetVehicleForward();
@@ -72,7 +74,7 @@ public:
 
 	void SetLocation(FVector Location);
 
-	void SetControl(FVehicleControl Control);
+	void SetControl();
 
 	void SetSteeringValue(float SteeringValue);
 
@@ -89,8 +91,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	FVehicleControl LastControl;
 
+
 	UPROPERTY(EditAnywhere)
-	float TravelDistance = 0.0f;
+	UBehaviorTree* VehicleBehavior;
 
 	void PrintLog(FString text);
 

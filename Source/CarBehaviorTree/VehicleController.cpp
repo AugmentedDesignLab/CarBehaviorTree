@@ -1,38 +1,76 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "VehicleController.h"
+#include "VehicleMovement.h"
+#include "EngineUtils.h"
+#include <Runtime\AIModule\Classes\BehaviorTree\BehaviorTree.h>
 #include "Engine.h"
 #include "UnrealMathUtility.h"
 #include "Kismet/KismetMathLibrary.h"
 
 AVehicleController::AVehicleController() 
 {
+	BlackboardComp = CreateDefaultSubobject<UBlackboardComponent>("VehicleBlackBoard");
+	BehaviorComp = CreateDefaultSubobject<UBehaviorTreeComponent>("VehicleBehaviorTree");
+
 	PrimaryActorTick.bCanEverTick = true;
-	PrintLog("Cosntructor");
 }
 
 void AVehicleController::BeginPlay()
 {
 	Super::BeginPlay();
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("begin play  "));
 	Vehicle = Cast<AVehicleMovement>(this->GetPawn());
-	PrintLog("inside controller beginplay" + FString::SanitizeFloat(Vehicle->LastControl.SteeringValue));
-	if (Vehicle == nullptr)
+	
+	if (Vehicle && Vehicle->VehicleBehavior)
 	{
-		PrintLog("nullptr");
+		BlackboardComp->InitializeBlackboard(*(Vehicle->VehicleBehavior->BlackboardAsset));
+		BehaviorComp->StartTree(*(Vehicle->VehicleBehavior));
+		PrintLog("Run Behavior Tree");
 	}
+
+	BlackboardComp->SetValueAsBool("IsNormalRoad", true);
+	 
+	for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr)
+	{
+		// Same as with the Object Iterator, access the subclass instance with the * or -> operators.
+		AActor* act = *ActorItr;
+		if(ActorItr->GetName().Contains("StopSign"))
+		{
+
+			//StopSignLocation = ActorItr->GetActorLocation();
+			//StopSignLocation = BlackboardComp->GetKeyID("StopSign");
+			BlackboardComp->SetValueAsVector("StopSign", ActorItr->GetActorLocation());
+		}
+		
+	}
+
+	//PrintLog("inside controller beginplay" + FString::SanitizeFloat(Vehicle->LastControl.SteeringValue));
 }
 
 void AVehicleController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("Inside Tick AI Contreoller"));
-	PrintLog("Inside Tick AI Contreoller");
-	FVehicleControl new_control;
-	new_control.SteeringValue = CalculateSteeringValue(DeltaTime);
-	new_control.ThrottleValue = Move(1.0);
-	Vehicle->SetControl(new_control);
 
+	time += DeltaTime;
+	IsNormalRoad = BlackboardComp->GetValueAsBool("IsNormalRoad");
+
+	float steer_value = CalculateSteeringValue(DeltaTime);
+	float throttle_value;
+
+	//PrintLog("Steer " + FString::SanitizeFloat(steer_value) + " thr " + FString::SanitizeFloat(throttle_value));
+	if (IsNormalRoad) 
+	{
+		throttle_value = Move(Vehicle->GetVehicleVelocity().Size() * 0.036);
+		Vehicle->SetSteeringValue(steer_value);
+		Vehicle->SetThrottleValue(throttle_value);
+	}
+	else
+	{
+		throttle_value = Stop(Vehicle->GetVehicleVelocity().Size() * 0.036);
+		Vehicle->SetSteeringValue(steer_value);
+		Vehicle->SetThrottleValue(throttle_value);
+	}
+	Vehicle->SetControl();
 }
 
 
@@ -91,6 +129,7 @@ void AVehicleController::VahicleBrake(float BrakeValue)
 
 float AVehicleController::Move(float Speed)
 {
+	//PrintLog("Speed " + FString::SanitizeFloat(Speed));
 	if (Speed >= SpeedLimit)
 	{
 		return Stop(Speed);
@@ -112,5 +151,6 @@ float AVehicleController::Stop(float Speed)
 
 void AVehicleController::PrintLog(FString Text)
 {
-	Vehicle->PrintLog(Text);
+	if (!GEngine) return;
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, *Text);
 }

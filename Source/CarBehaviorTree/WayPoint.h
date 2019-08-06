@@ -32,7 +32,7 @@ public:
 
 
 	UPROPERTY(EditAnywhere)
-		USplineComponent *SP;
+	USplineComponent *SP;
 
 	void SetActorHeight(float Height);
 
