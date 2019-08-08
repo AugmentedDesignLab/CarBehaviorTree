@@ -53,7 +53,12 @@ public:
 
 	void Tick(float DeltaTime) override;
 
+
 	AVehicleMovement* Vehicle;
+
+	UFUNCTION(BlueprintPure, Category = "vehicle_controller")
+	AVehicleMovement* GetVehicleFromController();
+
 
 	UPROPERTY(EditAnywhere)
 	float time = 0.0;

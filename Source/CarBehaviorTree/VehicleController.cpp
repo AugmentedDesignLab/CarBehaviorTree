@@ -69,11 +69,17 @@ void AVehicleController::Tick(float DeltaTime)
 	}
 	else
 	{
-		throttle_value = Stop(Vehicle->GetVehicleVelocity().Size() * 0.036);
+		//throttle_value = Stop(Vehicle->GetVehicleVelocity().Size() * 0.036);
+		Vehicle->SetBrakeValue(0.3);
 		Vehicle->SetSteeringValue(steer_value);
-		Vehicle->SetThrottleValue(throttle_value);
+		Vehicle->SetThrottleValue(0);
 	}
 	Vehicle->SetControl();
+}
+
+AVehicleMovement* AVehicleController::GetVehicleFromController()
+{
+	return Vehicle;
 }
 
 

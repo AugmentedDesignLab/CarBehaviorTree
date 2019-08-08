@@ -55,21 +55,25 @@ protected:
 public:
 
 	//control getter
+
 	FVehicleControl& GetLastControl();
 
+	UFUNCTION(BlueprintPure, Category = "vehicle_movement")
 	FTransform GetVehicleTransform();
 
-	UFUNCTION(BlueprintPure, Category = "veh")
+	UFUNCTION(BlueprintPure, Category = "vehicle_movement")
 	FVector GetVehicleLocation();
 	
+	UFUNCTION(BlueprintPure, Category = "vehicle_movement")
 	FVector GetVehicleForward();
 
+	UFUNCTION(BlueprintPure, Category = "vehicle_movement")
 	FVector GetVehicleVelocity();
 	
+	UFUNCTION(BlueprintPure, Category = "vehicle_movement")
 	float GetTraveledDistance();
 	
 	AWayPoint* GetWayPoint();
-
 
 
 	void SetLocation(FVector Location);
@@ -78,9 +82,12 @@ public:
 
 	void SetSteeringValue(float SteeringValue);
 
+
 	void SetThrottleValue(float ThrottleValue);
 
+
 	void SetBrakeValue(float BrakeValue);
+
 
 	void SetWayPoint(AWayPoint* WayPoint);
 
