@@ -44,7 +44,7 @@ void AVehicleController::BeginPlay()
 	
 	for (int i = 0; i < StopSignLocation.Num(); i++)
 	{
-		PrintLog( "stopsign" + StopSignLocation[i].ToString());
+		PrintLog( FString::FromInt(i) + " stopsign" + StopSignLocation[i].ToString());
 	}
 	BlackboardComp->SetValueAsVector("StopSign", StopSignLocation[0]);
 	//PrintLog("inside controller beginplay" + FString::SanitizeFloat(Vehicle->LastControl.SteeringValue));

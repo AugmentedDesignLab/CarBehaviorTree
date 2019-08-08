@@ -30,7 +30,7 @@ struct FVectorSortByDistance
 		float DistanceA = FVector::DistSquared(SourceLocation, A);
 		float DistanceB = FVector::DistSquared(SourceLocation, B);
 
-		return DistanceA > DistanceB;
+		return DistanceA < DistanceB;
 	}
 };
 

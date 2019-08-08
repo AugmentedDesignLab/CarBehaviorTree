@@ -24,9 +24,15 @@ EBTNodeResult::Type UStopCar::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uin
 	if (distance < 1000)
 	{
 		MyComp.GetBlackboardComponent()->SetValueAsBool("IsNormalRoad", false);
+		if(MyController->StopSignLocation.Num()>= 1)
+		{ 
+			MyController->StopSignLocation.Remove(stop_location);
+			return EBTNodeResult::Succeeded;
+		}
+			
 	}
 
-	return EBTNodeResult::Succeeded;
+	return EBTNodeResult::Failed;
 }
 
 void UStopCar::PrintLog(FString Text)
