@@ -7,12 +7,12 @@
 
 EBTNodeResult::Type UStopCar::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
-	PrintLog(OwnerComp.GetName());
+	//PrintLog(OwnerComp.GetName());
 	FVector stop_location;
 	UBehaviorTreeComponent& MyComp = OwnerComp;
 	stop_location = MyComp.GetBlackboardComponent()->GetValueAsVector("StopSign");
 	
-	PrintLog(" StopLoc " + stop_location.ToString());
+	//PrintLog(" StopLoc " + stop_location.ToString());
 	AVehicleController* MyController = &MyComp ? Cast<AVehicleController>(MyComp.GetOwner()) : NULL;
 	if (MyController == NULL)
 	{
@@ -20,7 +20,7 @@ EBTNodeResult::Type UStopCar::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uin
 	}
 	float distance = FVector::Distance(stop_location, MyController->Vehicle->GetVehicleLocation());
 
-	PrintLog("Distance " + FString::SanitizeFloat(distance));
+	//PrintLog("Distance " + FString::SanitizeFloat(distance));
 	if (distance < 1000)
 	{
 		MyComp.GetBlackboardComponent()->SetValueAsBool("IsNormalRoad", false);

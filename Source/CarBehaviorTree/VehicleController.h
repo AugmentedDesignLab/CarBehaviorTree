@@ -14,6 +14,27 @@
 /**
  * 
  */
+
+struct FVectorSortByDistance
+{
+	FVectorSortByDistance(const FVector& InSourceLocation) : SourceLocation(InSourceLocation)
+	{
+
+	}
+
+	/* The Location to use in our Sort comparision. */
+	FVector SourceLocation;
+
+	bool operator()(const FVector A, const FVector B) const
+	{
+		float DistanceA = FVector::DistSquared(SourceLocation, A);
+		float DistanceB = FVector::DistSquared(SourceLocation, B);
+
+		return DistanceA > DistanceB;
+	}
+};
+
+
 UCLASS()
 class CARBEHAVIORTREE_API AVehicleController : public AAIController
 {
@@ -50,7 +71,8 @@ public:
 
 	float SpeedLimit = 30.0;
 
-	int StopSignLocation;
+	TArray<FVector> StopSignLocation;
+
 	bool IsNormalRoad = true;
 
 	float CalculateSteeringValue(float delta);

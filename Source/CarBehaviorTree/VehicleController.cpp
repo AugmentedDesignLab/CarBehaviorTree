@@ -36,14 +36,17 @@ void AVehicleController::BeginPlay()
 		AActor* act = *ActorItr;
 		if(ActorItr->GetName().Contains("StopSign"))
 		{
-
-			//StopSignLocation = ActorItr->GetActorLocation();
-			//StopSignLocation = BlackboardComp->GetKeyID("StopSign");
-			BlackboardComp->SetValueAsVector("StopSign", ActorItr->GetActorLocation());
+			StopSignLocation.Emplace(ActorItr->GetActorLocation());
 		}
 		
 	}
-
+	StopSignLocation.Sort(FVectorSortByDistance(Vehicle->GetVehicleLocation()));
+	
+	for (int i = 0; i < StopSignLocation.Num(); i++)
+	{
+		PrintLog( "stopsign" + StopSignLocation[i].ToString());
+	}
+	BlackboardComp->SetValueAsVector("StopSign", StopSignLocation[0]);
 	//PrintLog("inside controller beginplay" + FString::SanitizeFloat(Vehicle->LastControl.SteeringValue));
 }
 
