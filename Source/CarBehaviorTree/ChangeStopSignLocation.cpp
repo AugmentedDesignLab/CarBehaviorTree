@@ -13,13 +13,11 @@ EBTNodeResult::Type UChangeStopSignLocation::ExecuteTask(UBehaviorTreeComponent&
 	{
 		return EBTNodeResult::Failed;
 	}
-	if (MyController->StopSignLocation.Num() >= 1) 
-	{
-		MyComp.GetBlackboardComponent()->SetValueAsVector("StopSign", MyController->StopSignLocation[0]);
-		MyComp.GetBlackboardComponent()->SetValueAsBool("IsNormalRoad", true);
-		return EBTNodeResult::Succeeded;
-	}
-	return EBTNodeResult::Failed;
+
+	MyComp.GetBlackboardComponent()->SetValueAsBool("IsStopSignAhead", false);
+	MyComp.GetBlackboardComponent()->SetValueAsBool("IsNormalRoad", true);
+	return EBTNodeResult::Succeeded;
+
 }
 
 void UChangeStopSignLocation::PrintLog(FString Text)

@@ -8,13 +8,58 @@
 #include "UnrealMathUtility.h"
 #include "Kismet/KismetMathLibrary.h"
 
+
 AVehicleController::AVehicleController() 
 {
 	BlackboardComp = CreateDefaultSubobject<UBlackboardComponent>("VehicleBlackBoard");
 	BehaviorComp = CreateDefaultSubobject<UBehaviorTreeComponent>("VehicleBehaviorTree");
+	//perception setup
+	AIPerceptionComp = CreateDefaultSubobject<UAIPerceptionComponent>("AIPerception");
+	AIPerceptionSigntComp = CreateDefaultSubobject<UAISenseConfig_Sight>("Sight");
+	if (AIPerceptionComp && AIPerceptionSigntComp)
+	{
+		AIPerceptionComp->ConfigureSense(*AIPerceptionSigntComp);
+		AIPerceptionComp->SetDominantSense(AIPerceptionSigntComp->GetSenseImplementation());
 
+		AIPerceptionSigntComp->SightRadius = 3000.0f;
+		AIPerceptionSigntComp->LoseSightRadius = 3100.0f;
+		AIPerceptionSigntComp->PeripheralVisionAngleDegrees = 45.0f;
+
+		AIPerceptionSigntComp->DetectionByAffiliation.bDetectEnemies = true;
+		AIPerceptionSigntComp->DetectionByAffiliation.bDetectFriendlies = true;
+		AIPerceptionSigntComp->DetectionByAffiliation.bDetectNeutrals = true;
+	}
+
+	AIPerceptionComp->OnPerceptionUpdated.AddDynamic(this, &AVehicleController::ProcessPerceivedInformation);
+	//GetPercComp()->OnPerceptionUpdated.AddDynamic(this, &AMyAIController::ProcessPerceivedInformation);
 	PrimaryActorTick.bCanEverTick = true;
 }
+
+
+void AVehicleController::ProcessPerceivedInformation(const TArray<AActor*>& UpdatedActors)
+{
+	for (int i = 0; i < UpdatedActors.Num(); i++)
+	{
+		AActor* temp = UpdatedActors[i];
+		PrintLog("Name " + temp->GetName());
+		
+		if (temp->GetName().Contains("StopSign"))
+		{
+			StopSignLocation.AddUnique(temp->GetActorLocation());
+			StopSignLocation.Sort(FVectorSortByDistance(Vehicle->GetVehicleLocation()));
+			BlackboardComp->SetValueAsVector("StopSign", StopSignLocation[0]);
+			PrintLog("Setting stop sign ahead true");
+			BlackboardComp->SetValueAsBool("IsStopSignAhead", true);
+		
+		}
+		else
+		{
+			PrintLog("False");
+		}
+		
+	}
+}
+
 
 void AVehicleController::BeginPlay()
 {
@@ -25,28 +70,12 @@ void AVehicleController::BeginPlay()
 	{
 		BlackboardComp->InitializeBlackboard(*(Vehicle->VehicleBehavior->BlackboardAsset));
 		BehaviorComp->StartTree(*(Vehicle->VehicleBehavior));
-		PrintLog("Run Behavior Tree");
 	}
+	this->SetPerceptionComponent(*AIPerceptionComp);
 
 	BlackboardComp->SetValueAsBool("IsNormalRoad", true);
-	 
-	for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr)
-	{
-		// Same as with the Object Iterator, access the subclass instance with the * or -> operators.
-		AActor* act = *ActorItr;
-		if(ActorItr->GetName().Contains("StopSign"))
-		{
-			StopSignLocation.Emplace(ActorItr->GetActorLocation());
-		}
-		
-	}
-	StopSignLocation.Sort(FVectorSortByDistance(Vehicle->GetVehicleLocation()));
+	BlackboardComp->SetValueAsBool("IsStopSignAhead", false);
 	
-	for (int i = 0; i < StopSignLocation.Num(); i++)
-	{
-		PrintLog( FString::FromInt(i) + " stopsign" + StopSignLocation[i].ToString());
-	}
-	BlackboardComp->SetValueAsVector("StopSign", StopSignLocation[0]);
 	//PrintLog("inside controller beginplay" + FString::SanitizeFloat(Vehicle->LastControl.SteeringValue));
 }
 
@@ -54,13 +83,11 @@ void AVehicleController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	time += DeltaTime;
 	IsNormalRoad = BlackboardComp->GetValueAsBool("IsNormalRoad");
 
 	float steer_value = CalculateSteeringValue(DeltaTime);
 	float throttle_value;
 
-	//PrintLog("Steer " + FString::SanitizeFloat(steer_value) + " thr " + FString::SanitizeFloat(throttle_value));
 	if (IsNormalRoad) 
 	{
 		throttle_value = Move(Vehicle->GetVehicleVelocity().Size() * 0.036);
@@ -135,6 +162,9 @@ void AVehicleController::VahicleBrake(float BrakeValue)
 {
 	Vehicle->SetBrakeValue(BrakeValue);
 }
+
+
+
 
 float AVehicleController::Move(float Speed)
 {

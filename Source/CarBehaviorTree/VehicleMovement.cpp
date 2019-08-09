@@ -11,7 +11,7 @@
 
 AVehicleMovement::AVehicleMovement()
 {
-
+	
 }
 
 void AVehicleMovement::BeginPlay()

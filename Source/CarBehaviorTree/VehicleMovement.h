@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "WheeledVehicle.h"
 #include "WayPoint.h"
+#include <Runtime\AIModule\Classes\Perception\AIPerceptionComponent.h>
 #include <Runtime\AIModule\Classes\BehaviorTree\BehaviorTree.h>
 #include "Classes/Components/SplineComponent.h"
 #include "WheeledVehicleMovementComponent4W.h"
@@ -97,7 +98,6 @@ public:
 	//last contro setting
 	UPROPERTY(EditAnywhere)
 	FVehicleControl LastControl;
-
 
 	UPROPERTY(EditAnywhere)
 	UBehaviorTree* VehicleBehavior;

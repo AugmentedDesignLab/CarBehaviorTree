@@ -6,6 +6,8 @@
 #include "AIController.h"
 #include <vector>
 #include "VehicleMovement.h"
+#include <Runtime\AIModule\Classes\Perception\AIPerceptionComponent.h>
+#include <Runtime\AIModule\Classes\Perception\AISenseConfig_Sight.h>
 #include <Runtime\AIModule\Classes\BehaviorTree\BehaviorTreeComponent.h>
 #include <Runtime\AIModule\Classes\BehaviorTree\BlackboardComponent.h>
 #include "VehicleController.generated.h"
@@ -39,7 +41,7 @@ UCLASS()
 class CARBEHAVIORTREE_API AVehicleController : public AAIController
 {
 	GENERATED_BODY()
-	
+
 public:
 	AVehicleController();
 
@@ -47,47 +49,59 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	std::vector<AVehicleMovement> OtherVehicle;
 
 public:
 
 	void Tick(float DeltaTime) override;
 
-
-	AVehicleMovement* Vehicle;
-
-	UFUNCTION(BlueprintPure, Category = "vehicle_controller")
-	AVehicleMovement* GetVehicleFromController();
-
-
-	UPROPERTY(EditAnywhere)
-	float time = 0.0;
-
 	/*
-	using a forum post template 
+	using a forum post template
 		https://forums.unrealengine.com/community/community-content-tools-and-tutorials/188-behavior-tree-tutorial?130-Behavior-Tree-Tutorial=&highlight=mikepurvis%20AI%20Behavior%20Tree
 	*/
 
 	UPROPERTY(transient)
-	UBlackboardComponent *BlackboardComp;
+		UBlackboardComponent* BlackboardComp;
 
 	UPROPERTY(transient)
-	UBehaviorTreeComponent *BehaviorComp;
+		UBehaviorTreeComponent* BehaviorComp;
 
+	UPROPERTY(transient)
+		UAIPerceptionComponent* AIPerceptionComp;
+
+	UPROPERTY(transient)
+		UAISenseConfig_Sight* AIPerceptionSigntComp;
+
+
+
+	///variables
+
+	TArray<FVector> StopSignLocation; //all the stop sign location
+	TArray<AVehicleController*> OtherVehicle; // All the vehicles in the scene
+	TArray<AVehicleController*> OtherVehicleOnSpline; // All the vehicles using the same spline
 	float SpeedLimit = 30.0;
+	AVehicleMovement* Vehicle; // vechicle movement for this controller
 
-	TArray<FVector> StopSignLocation;
 
-	bool IsNormalRoad = true;
+	///state boolean
 
-	float CalculateSteeringValue(float delta);
+	bool IsNormalRoad = true; // when no near stop sign and car then true
+	bool IsVehicleAhead = true; // check vehicles on the same spline
 
+
+
+
+	///Functions
+
+	UFUNCTION(BlueprintPure, Category = "vehicle_controller")
+	AVehicleMovement* GetVehicleFromController();
 	UFUNCTION(BlueprintCallable)
 	void VahicleBrake(float BrakeValue);
+	UFUNCTION()
+	void ProcessPerceivedInformation(const TArray<AActor*>& UpdatedActors);
 
 	float Move(float Speed);
-
 	float Stop(float Speed);
-
 	void PrintLog(FString Text);
+	float CalculateSteeringValue(float delta);
+
 };
