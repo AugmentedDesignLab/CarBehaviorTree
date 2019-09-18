@@ -34,7 +34,16 @@ public:
 	UPROPERTY(EditAnywhere)
 	USplineComponent *SP;
 
+	UPROPERTY(EditAnywhere)
+	TArray<AWayPoint*> ConnectedSpline;
+
 	void SetActorHeight(float Height);
+
+	UPROPERTY(EditAnywhere)
+	int ID = 0;
+
+	UPROPERTY(EditAnywhere)
+	int SpeedLimit = 0;
 
 	float TotalDistance = 0.0;
 

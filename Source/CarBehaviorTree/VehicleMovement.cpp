@@ -17,7 +17,6 @@ AVehicleMovement::AVehicleMovement()
 void AVehicleMovement::BeginPlay()
 {
 	Super::BeginPlay();
-	PrintLog("VM BeginPlay");
 }
 
 void AVehicleMovement::PrintLog(FString text)
