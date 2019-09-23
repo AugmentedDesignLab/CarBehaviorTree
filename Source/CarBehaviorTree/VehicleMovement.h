@@ -36,6 +36,10 @@ struct FVehicleControl
 	UPROPERTY(EditAnywhere)
 	AWayPoint *WayPoint;
 
+	UPROPERTY(EditAnywhere)
+	float SpeedLimit;
+
+
 };
 
 
@@ -74,6 +78,8 @@ public:
 	UFUNCTION(BlueprintPure, Category = "vehicle_movement")
 	float GetTraveledDistance();
 	
+	float GetSpeedLimit();
+
 	AWayPoint* GetWayPoint();
 
 
@@ -83,14 +89,13 @@ public:
 
 	void SetSteeringValue(float SteeringValue);
 
-
 	void SetThrottleValue(float ThrottleValue);
-
 
 	void SetBrakeValue(float BrakeValue);
 
-
 	void SetWayPoint(AWayPoint* WayPoint);
+
+	void SetSpeedLimit(float SpeedLimit);
 
 	//traveled distance on the current spline
 	void SetTraveledDistance(float Distance);

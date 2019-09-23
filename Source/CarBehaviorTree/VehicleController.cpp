@@ -52,6 +52,25 @@ void AVehicleController::ProcessPerceivedInformation(const TArray<AActor*>& Upda
 			BlackboardComp->SetValueAsBool("IsStopSignAhead", true);
 		
 		}
+		else if (temp->GetName().Contains("Car"))
+		{
+			AVehicleMovement* temp_vehicle_controller = (AVehicleMovement*)temp;
+			if (temp_vehicle_controller != nullptr)
+			{
+				//PrintLog(FString::FromInt(temp_vehicle_controller->GetWayPoint()->ID));
+				OtherVehicle.AddUnique(temp_vehicle_controller);
+				for (int i = 0; i < OtherVehicle.Num(); i++)
+				{
+					if (OtherVehicle[i]->GetWayPoint()->ID == this->Vehicle->GetWayPoint()->ID)
+					{
+						OtherVehicleOnSpline = OtherVehicle[i];
+						BlackboardComp->SetValueAsBool("IsVehicleAhead", true);
+					}
+				}
+				
+				
+			}
+		}
 		else
 		{
 			PrintLog("False");
@@ -65,7 +84,8 @@ void AVehicleController::BeginPlay()
 {
 	Super::BeginPlay();
 	Vehicle = Cast<AVehicleMovement>(this->GetPawn());
-	
+	SpeedLimit = Vehicle->GetLastControl().SpeedLimit;
+
 	if (Vehicle && Vehicle->VehicleBehavior)
 	{
 		BlackboardComp->InitializeBlackboard(*(Vehicle->VehicleBehavior->BlackboardAsset));
@@ -75,6 +95,7 @@ void AVehicleController::BeginPlay()
 
 	BlackboardComp->SetValueAsBool("IsNormalRoad", true);
 	BlackboardComp->SetValueAsBool("IsStopSignAhead", false);
+	BlackboardComp->SetValueAsBool("IsVehicleAhead", false);
 	
 	//PrintLog("inside controller beginplay" + FString::SanitizeFloat(Vehicle->LastControl.SteeringValue));
 }
@@ -83,10 +104,12 @@ void AVehicleController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	SpeedLimit = Vehicle->GetLastControl().SpeedLimit;
 	IsNormalRoad = BlackboardComp->GetValueAsBool("IsNormalRoad");
 
 	float steer_value = CalculateSteeringValue(DeltaTime);
 	float throttle_value;
+
 
 	if (IsNormalRoad) 
 	{

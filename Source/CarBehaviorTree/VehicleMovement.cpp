@@ -28,7 +28,6 @@ void AVehicleMovement::PrintLog(FString text)
  FVehicleControl& AVehicleMovement::GetLastControl()
 {
 	return LastControl;
-
 }
 
 FTransform AVehicleMovement::GetVehicleTransform()
@@ -54,6 +53,11 @@ FVector AVehicleMovement::GetVehicleVelocity()
 float AVehicleMovement::GetTraveledDistance()
 {
 	return LastControl.TraveledDistance;
+}
+
+float AVehicleMovement::GetSpeedLimit()
+{
+	return LastControl.SpeedLimit;
 }
 
 AWayPoint* AVehicleMovement::GetWayPoint()
@@ -91,6 +95,11 @@ void AVehicleMovement::SetBrakeValue(float BrakeValue)
 void AVehicleMovement::SetWayPoint(AWayPoint* WayPoint)
 {
 	LastControl.WayPoint = WayPoint;
+}
+
+void AVehicleMovement::SetSpeedLimit(float SpeedLimit)
+{
+	LastControl.SpeedLimit = SpeedLimit;
 }
 
 void AVehicleMovement::SetTraveledDistance(float Distance)

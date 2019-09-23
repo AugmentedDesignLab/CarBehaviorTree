@@ -76,9 +76,9 @@ public:
 	///variables
 
 	TArray<FVector> StopSignLocation; //all the stop sign location
-	TArray<AVehicleController*> OtherVehicle; // All the vehicles in the scene
-	TArray<AVehicleController*> OtherVehicleOnSpline; // All the vehicles using the same spline
-	float SpeedLimit = 30.0;
+	TArray<AVehicleMovement*> OtherVehicle; // All the vehicles in the scene
+	AVehicleMovement* OtherVehicleOnSpline; // All the vehicles using the same spline
+	float SpeedLimit = 0.0;
 	AVehicleMovement* Vehicle; // vechicle movement for this controller
 
 
@@ -86,7 +86,7 @@ public:
 
 	bool IsNormalRoad = true; // when no near stop sign and car then true
 	bool IsVehicleAhead = true; // check vehicles on the same spline
-
+	bool IsChangeSplineAhead = false; // check if end of spline reached (threshold required)
 
 
 
