@@ -7,8 +7,11 @@ To run behavior tree in UE4 the actor needs a controller class inherited from th
 Unreal provides basic documentation of their vehicle structure. [The basic vehicle structure in UE4.](https://docs.unrealengine.com/en-US/Engine/Physics/Vehicles/VehicleUserGuide/index.html) Follow the steps to configure physics asset, skeletal mesh, animation blueprint, tire blueprint. 
 
 How to create a car instance using this WheeledVehicleObject class:
-* Item 1 Create a blueprint class based on WheeledVehicleObject class.
-* Item 2 
+* Create a blueprint class based on WheeledVehicleObject class. This will give a hierarchy like this [image2] Add the VehicleAIController class in the pawn. [image3]
+* Add skeletal mesh, animation blueprint and materials in the Skeletal Mesh Component.
+* Configure the wheels in the vehicle movement component. [image4] Bone name in the Wheels setting should be the same as the physics asset. Add appropriate wheel class.
+
+These steps will give a vehicle actor that comprises like this.[image5]
 
 Vehicles in this implementation assumes that there is a WayPoint class associated with the roads. This Waypoint class has a splinecomponent associatited with it. Vehicles while moving along the road follow this spline to keep track of the roads. 
 
