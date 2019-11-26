@@ -20,16 +20,20 @@ This class contains the behavior tree and blackboard asset. It gets the behavior
 ##### WheeledVehicleObject
 This class initialize some control variables in the blackboard. During each frame it gets the control values from blackboard and apply it.
 
-Unreal provides basic documentation of their vehicle structure. [The basic vehicle structure in UE4.](https://docs.unrealengine.com/en-US/Engine/Physics/Vehicles/VehicleUserGuide/index.html) Follow the steps to configure physics asset, skeletal mesh, animation blueprint, tire blueprint. 
+Unreal provides basic documentation of their vehicle structure. [The basic vehicle structure in UE4.](https://docs.unrealengine.com/en-US/Engine/Physics/Vehicles/VehicleUserGuide/index.html) Follow the steps to configure physics asset, skeletal mesh, animation blueprint, wheel blueprint. 
 
-##### How to create a car instance using this WheeledVehicleObject class:
+##### How to create a car instance using WheeledVehicleObject class:
 * Create a blueprint class based on WheeledVehicleObject class. This will give a hierarchy like this.  
 ![Wheeled Vehicle Object](/Images/skeletalmesh.PNG) 
 * Add the VehicleAIController class in the pawn.  
 ![Vehicle AI Controller](/Images/COntrollerPawn.PNG)
 * Add skeletal mesh, animation blueprint and materials in the Skeletal Mesh Component.
-* Configure the wheels in the vehicle movement component. Bone name in the Wheels setting should be the same as the physics asset. Add appropriate wheel class.
+* Configure the wheels in the vehicle movement component. Bone name in the Wheels setting should be the same as the physics asset. Add appropriate wheel class.  
 ![Wheel Setup](/Images/wheelsetup.PNG) 
+
+The basic diagram for car is similar to this. 
+![Car Diagram](/Images/CarDiagram.jpeg)
+
 ##### Function call order
 1. Constructor AWheeledVehicleObject
 2. Constructor AVehicleAIController
@@ -37,8 +41,9 @@ Unreal provides basic documentation of their vehicle structure. [The basic vehic
 4. BeginPlay AWheeledVehicleObject
 5. Tick AWheeledVehicleObject & AVehicleAIController
 
-These steps will give a vehicle actor that comprises like this.[image5]
 
-Vehicles in this implementation assumes that there is a WayPoint class associated with the roads. This Waypoint class has a splinecomponent associatited with it. Vehicles while moving along the road follow this spline to keep track of the roads. 
+Vehicles in this implementation assumes that there is a WayPoint class associated with the roads. This Waypoint class needs to have a splinecomponent associatited with it. Vehicles while moving along the road follow this spline to keep track of the roads. The implementation also assumes that each WayPoint has a list of connected spline and boolean variables for stop sign.
+
+Place the car blueprint in the scene and select a WayPoint actor from the scene. 
 
 
