@@ -1,7 +1,7 @@
 # CarBehaviorTree
 UE4 behavior tree implementation for cars. 
 
-## Project Structure
+## Project Setup
 To run behavior tree in UE4 the actor needs a controller class inherited from the [AIController.](https://docs.unrealengine.com/en-US/Gameplay/Framework/Controller/AIController/index.html) In this project VehicleAIController is inherited from AAIController class which is a base class in UE4. Unreal also provides a [WheeledVehicle](https://docs.unrealengine.com/en-US/API/Plugins/PhysXVehicles/AWheeledVehicle/index.html) base class that is inherited by the WheeledVehicleObject class in this project. This class is included in [PhysXVehicle.](https://docs.unrealengine.com/en-US/API/Plugins/PhysXVehicles/index.html) To include this plugin in the project add 'PhysXVehicle' in Public Dependency Module of the Build.cs file. It should look like this ![Adding PhysXVehicle](/Images/PhysXvehicle.PNG). 
 
 ##### Behavior tree asset 
@@ -46,4 +46,18 @@ Vehicles in this implementation assumes that there is a WayPoint class associate
 
 Place the car blueprint in the scene and select a WayPoint actor from the scene. 
 
+## Project Structure
+Blackboard plays the most important role in this implementation. All the variables important for the vehicle are in the blackboard. All the task read and write on the blackboard. ![Diagram](/Images/diagram.PNG)  
 
+Controller class initialize the blackboard and start the behavior tree. At each frame, WheeledVehicleObject reads the control values(Brake, Steering, Throttle) and apply those on the vehicle. 
+
+##### How to create new behavior tree task
+* Add neccesary variables in the blackboard by adding a new key. 
+* Create two C++ class inherited from UBTTask_BlackboardBase. One is for precondition check and the other is for actual task implementation.
+* If the task requires perception to get activated, change the state variable from the perception update function in Controller class.
+* Implement actual task in the other C++ class and change the control variable accordingly. 
+
+For example, the changing spline task have two classes. TaskCheckChangeSpline check if the car is at the end of spline. If true than it hands the control to the task TaskChangeSpline. In the TaskChangeSpline access the Waypoint from the blackboard and change it to another Waypoint connected with the previous Waypoint.   
+![TaskCheckChangeSpline](/Images/checkchangespline.PNG)
+
+![TaskChangeSpline](/Images/changespline.PNG)
