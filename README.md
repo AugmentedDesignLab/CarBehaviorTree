@@ -8,7 +8,8 @@ To run behavior tree in UE4 the actor needs a controller class inherited from th
 Unreal gives an interface to add and remove task easily in the behavior tree. Selector, sequence, decorator can be added without implementing task in C++. But in this project we followed the following convention. 
 * Precondition: Each task contains a precondition checker that returns true only at particular situation.
 * Task: Executes after preconditions are true.
-Each Behavior tree contains a blackboard. In this project blackboard asset contains all the control, state and threshold variable that will be used inside and outside of the task[image]. 
+
+Each Behavior tree contains a blackboard. In this project blackboard asset contains all the control, state and threshold variable that will be used inside and outside of the task. For now the blackboard looks like this.[image]. More variables will be added for more tasks.  
 
 ##### VehicleAIController
 This class contains the behavior tree and blackboard asset. It gets the behavior tree asset from the content folder, initialize blackboard and starts running the behavior tree. Initialize the state, control and threshold variables.
