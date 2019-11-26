@@ -9,7 +9,9 @@ Unreal gives an interface to add and remove task easily in the behavior tree. Se
 * Precondition: Each task contains a precondition checker that returns true only at particular situation. All the precondition classes start with 'TaskCheck' keyword. For example, 'TaskCheckChangeSpline' is a precondition class.
 * Task: Executes after preconditions are true. Start with keyword 'Task'. 
 
-Each Behavior tree contains a blackboard. In this project blackboard asset contains all the control, state and threshold variable that will be used inside and outside of the task. For now the blackboard looks like this. More variables will be added for more tasks.![blackboard](/Images/BlackBoard.PNG).
+Each Behavior tree contains a blackboard. In this project blackboard asset contains all the control, state and threshold variable that will be used inside and outside of the task. For now the blackboard looks like this. More variables will be added for more tasks.
+
+![blackboard](/Images/BlackBoard.PNG).
  
 
 ##### VehicleAIController
@@ -21,10 +23,13 @@ This class initialize some control variables in the blackboard. During each fram
 Unreal provides basic documentation of their vehicle structure. [The basic vehicle structure in UE4.](https://docs.unrealengine.com/en-US/Engine/Physics/Vehicles/VehicleUserGuide/index.html) Follow the steps to configure physics asset, skeletal mesh, animation blueprint, tire blueprint. 
 
 ##### How to create a car instance using this WheeledVehicleObject class:
-* Create a blueprint class based on WheeledVehicleObject class. This will give a hierarchy like this ![Wheeled Vehicle Object](/Images/skeletalmesh.PNG) Add the VehicleAIController class in the pawn. ![Vehicle AI Controller](/Images/COntrollerPawn.PNG)
+* Create a blueprint class based on WheeledVehicleObject class. This will give a hierarchy like this.  
+![Wheeled Vehicle Object](/Images/skeletalmesh.PNG) 
+* Add the VehicleAIController class in the pawn.  
+![Vehicle AI Controller](/Images/COntrollerPawn.PNG)
 * Add skeletal mesh, animation blueprint and materials in the Skeletal Mesh Component.
-* Configure the wheels in the vehicle movement component. ![Wheel Setup](/Images/wheelsetup.PNG) Bone name in the Wheels setting should be the same as the physics asset. Add appropriate wheel class.
-
+* Configure the wheels in the vehicle movement component. Bone name in the Wheels setting should be the same as the physics asset. Add appropriate wheel class.
+![Wheel Setup](/Images/wheelsetup.PNG) 
 ##### Function call order
 1. Constructor AWheeledVehicleObject
 2. Constructor AVehicleAIController
